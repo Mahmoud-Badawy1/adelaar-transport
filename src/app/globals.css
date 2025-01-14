@@ -2,26 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.double-arrow {
+    display: flex;
+    position: relative;
+    gap: 5px; /* Adjust spacing between arrows */
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  .chevron {
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(0% 0%, 70% 50%, 0% 100%);
+    background-color: #008080; /* Teal color */
   }
-}
+  
+  .second {
+    margin-left: -15px; /* Overlap adjustment */
+  }
+  
