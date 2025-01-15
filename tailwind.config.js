@@ -19,6 +19,7 @@ module.exports = {
         text1: "#505D7B",
         text2: "#798393",
         gray1: "#EEEEEE",
+        gray2: "#C4C4C4",
         lightGreen1: "#CBF6FF",
         lightGreen2: "#5092A1",
         lightGreen3: "#E6F9FB",
