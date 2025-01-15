@@ -147,6 +147,7 @@ const ServicesSection = () => {
                 title={card.title}
                 description={card.description}
                 buttonText={card.buttonText}
+                href={card.href}
               />
             </div>
           ))}

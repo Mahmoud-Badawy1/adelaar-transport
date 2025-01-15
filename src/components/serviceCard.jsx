@@ -1,6 +1,10 @@
-import React from 'react';
+"use client";
 
-const Card = ({ icon, title, description, buttonText }) => {
+import React from "react";
+import Link from "next/link";
+
+
+const Card = ({ icon, title, description, buttonText, href }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden text-start">
       {/* Gray Background Section */}
@@ -15,9 +19,17 @@ const Card = ({ icon, title, description, buttonText }) => {
       <div className="p-6 pt-14">
         <h3 className="text-xl font-semibold text-green3">{title}</h3>
         <p className="text-gray-500 mt-2">{description}</p>
-        <button className="bg-lightOrange text-orange font-semibold px-4 py-2 mt-4 rounded-md hover:bg-orange-600 transition">
+        {/* <button className="bg-lightOrange text-orange font-semibold px-4 py-2 mt-4 rounded-md">
           {buttonText}
-        </button>
+        </button> */}
+        {href && (
+        <Link
+          href={href}
+          className="inline-block px-4 py-2 text-orange font-semibold bg-lightOrange rounded-md hover:bg-orange hover:text-white transition-colors mt-4"
+        >
+          {buttonText}
+        </Link>
+      )}
       </div>
     </div>
   );
