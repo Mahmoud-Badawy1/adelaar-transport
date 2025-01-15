@@ -85,12 +85,12 @@ const StatsSection = () => {
   ];
 
   return (
-    <section className="bg-green3 py-16">
+    <section className="bg-darkblue py-16">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="flex items-center bg-green4 text-white p-6 rounded-lg shadow-md"
+            className="flex items-center bg-darkblue2 text-white p-6 rounded-xl border-2 border-dashed border-green4"
           >
             <div className="flex-shrink-0">{stat.icon}</div>
             <div className="ml-4">
