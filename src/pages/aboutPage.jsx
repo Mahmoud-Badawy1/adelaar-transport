@@ -3,10 +3,10 @@ import Header from '@/components/home/header'
 import Intro from '@/components/about/Intro'
 import AboutSection from '@/components/about/AboutSection'
 import Award from '@/components/about/Award'
-import Fact from '@/components/about/Fact'
 import Team from '@/components/about/Team'
 import WhyChooseUs from '@/components/home/whyUs'
 import Testimonial from '@/components/about/Testimonial'
+import StatsSection from '@/components/home/stats'
 
 const AboutPage = () =>  {
   return (
@@ -15,7 +15,7 @@ const AboutPage = () =>  {
     <Intro title={"About Company"} />
     <AboutSection />
     <Award />
-    <Fact />
+    <StatsSection />
     <Team />
     <WhyChooseUs />
     <Testimonial />

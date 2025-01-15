@@ -19,3 +19,12 @@
     margin-left: -15px; /* Overlap adjustment */
   }
   
+
+  .no-scrollbar {
+    scrollbar-width: none; /* لإخفاء الشريط في Firefox */
+    -ms-overflow-style: none; /* لإخفاء الشريط في Internet Explorer */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* لإخفاء الشريط في Chrome, Safari, Edge */
+}
