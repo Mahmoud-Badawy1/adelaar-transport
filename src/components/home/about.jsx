@@ -150,13 +150,14 @@ const About = () => {
       </div>
 
       {/* Logos Section */}
-      <div className="mt-28 flex justify-between items-center px-10">
-        <img src="/images/logistics.svg" alt="Logistics" className="h-10" />
-        <img src="/images/freightex.svg" alt="Freightex" className="h-10" />
-        <img src="/images/travelgood.svg" alt="Travelgood" className="h-10" />
-        <img src="/images/trucking.svg" alt="Trucking" className="h-10" />
-        <img src="/images/flyfaster.svg" alt="Flyfaster" className="h-10" />
-      </div>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-28 px-4 md:px-10">
+  <img src="/images/logistics.svg" alt="Logistics" className="h-10 mx-auto" />
+  <img src="/images/freightex.svg" alt="Freightex" className="h-10 mx-auto" />
+  <img src="/images/travelgood.svg" alt="Travelgood" className="h-10 mx-auto" />
+  <img src="/images/trucking.svg" alt="Trucking" className="h-10 mx-auto" />
+  <img src="/images/flyfaster.svg" alt="Flyfaster" className="h-10 mx-auto" />
+</div>
+
     </section>
   );
 };

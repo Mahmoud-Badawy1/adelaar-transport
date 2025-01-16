@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
   const currentTab = data[activeTab];
 
   return (
-    <section className="relative min-h-[600px]">
+    <section className="relative min-h-[600px] z-10">
       {/* Background Pattern */}
       <div className="absolute top-0 left-0 w-[40%] h-full bg-green3 overflow-hidden">
         <div className="relative w-1/2 h-1/2">
@@ -100,7 +100,7 @@ const WhyChooseUs = () => {
           <h3 className="text-3xl font-bold text-white mb-6">{currentTab.title}</h3>
           <p className="text-white/90 mb-10">{currentTab.description}</p>
           
-          <div className="flex justify-between items-start gap-8">
+          <div className="flex justify-between items-start gap-8 z-20">
             <ul className="space-y-6 flex-1">
               {currentTab.features.map((feature, index) => (
                 <li key={index} className="flex items-center text-white text-lg">
@@ -115,7 +115,7 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Triangle Decoration */}
-          <div className="absolute -z-10 bottom-0 border-l-[40px] border-l-darkOrange border-b-[40px] border-b-darkOrange" style={{
+          <div className="absolute  bottom-0 border-l-[40px] border-l-darkOrange border-b-[40px] border-b-darkOrange" style={{
                 clipPath: "polygon(0 0, 100% 0, 0 100%)",
                 right: "-6.4%",
                 width: "40px",

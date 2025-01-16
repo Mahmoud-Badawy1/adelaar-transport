@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        custom: "0px 4px 20px rgba(0, 0, 0, 0.1)", // Custom shadow with x, y, blur
+      },
       colors: {
         line: '#406F7A',
         orange: "#FF7D44",
@@ -29,6 +32,9 @@ module.exports = {
         greyBlue2: "#E0E8F4",
         darkblue:"#003B49",
         darkblue2:"#085363",
+        'coral': {
+          500: '#FF6B2C',
+        },
       },
     },
   },

@@ -5,8 +5,7 @@ import AboutPage from '../pages/aboutPage';
 const Pages = () => {
   return (
     <div>
-      {/* <Home /> */}
-      <AboutPage />
+      <Home />
     </div>
   );
 };

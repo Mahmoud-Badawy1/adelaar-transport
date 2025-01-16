@@ -28,3 +28,10 @@
 .no-scrollbar::-webkit-scrollbar {
     display: none; /* لإخفاء الشريط في Chrome, Safari, Edge */
 }
+
+@media (max-width: 1023px) {
+  .smallflex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
