@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from '@/components/home/header'
-import Intro from '@/components/about/Intro'
-import AboutSection from '@/components/about/AboutSection'
-import Award from '@/components/about/Award'
-import Team from '@/components/about/Team'
+import Intro from '@/components/About/Intro'
+import AboutSection from '@/components/About/AboutSection'
+import Award from '@/components/About/Award'
+import Team from '@/components/About/Team'
 import WhyChooseUs from '@/components/home/whyUs'
-import Testimonial from '@/components/about/Testimonial'
+import Testimonial from '@/components/About/Testimonial'
 import StatsSection from '@/components/home/stats'
 
 const AboutPage = () =>  {
