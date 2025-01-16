@@ -31,10 +31,10 @@ function CardPagination() {
   };
 
   return (
-    <div className="container mx-auto p-4 mt-2">
+    <div className="container mx-auto p-4 mt-2 ">
 
       {/* عرض البطاقات */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mb-16 mt-16 px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-11 mb-16 mt-16 px-4 lg:ml-24 lg:mr-24">
         {currentItems.map((item) => (
           <div
             key={item.id}
