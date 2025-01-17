@@ -5,7 +5,7 @@ const HeroService = () => {
     <section className="bg-green3 text-white relative h-96 flex items-center">
       {/* Hero Content */}
       <div className="container mx-auto flex flex-col items-start justify-center px-4">
-        <h1 className="text-6xl font-bold leading-tight mb-6">
+        <h1 className="sm:text-6xl text-3xl font-bold leading-tight mb-6">
         Our Services
         </h1>
         <button className="bg-orange px-6 py-3 rounded-md hover:bg-orange-600 transition flex items-center space-x-3 text-white text-lg font-medium">

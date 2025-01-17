@@ -1,36 +1,37 @@
 "use client";
+
 import { useState } from 'react';
 import { faqData } from './faqData';
 import FaqItem from './FaqItem';
 
 const FaqSection = () => {
-  const [activeId, setActiveId] = useState(1); // First item active by default
+  const [activeId, setActiveId] = useState(1);
 
   const toggleItem = (id) => {
     setActiveId(activeId === id ? null : id);
   };
 
   return (
-    <section className="py-16 bg-white lg:h-[51.875rem] h-fit flex items-center" style={{ backgroundImage: "url('/images/bg-faq.svg')" }}>
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center px-16">
+    <section className="relative py-8 md:py-12 lg:py-16 bg-white min-h-[calc(100vh-4rem)] lg:h-[51.875rem] flex items-center bg-no-repeat bg-cover" style={{ backgroundImage: "url('/images/bg-faq.svg')" }}>
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start lg:items-center px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
           {/* Left Column */}
-          <div>
-            <div className="inline-block px-4 py-2 text-sm font-medium bg-orange text-white rounded-full mb-6 justify-center items-center">
-              FREQUENTLY ASKED QUESTIONS
+          <div className="space-y-6">
+            <div className="inline-flex px-4 py-2 text-xs md:text-sm font-medium bg-orange text-white rounded-full items-center">
+              VAARDIG VRAAGGESTELLEN VRAGEN
             </div>
-            <h2 className="text-6xl font-semibold text-green1 mb-4">
-              Do you have<br />
-              any question?<br />
-              Find answer here
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-green1 leading-tight">
+              <span className="block">Heeft u</span>
+              <span className="block">een vraag?</span>
+              <span className="block">Vind het antwoord hier.</span>
             </h2>
-            <p className="text-gray-600">
-              Some frequently asked questions about logisco's cargo services
+            <p className="text-gray-600 text-base md:text-lg max-w-prose">
+              Enkele veelgestelde vragen over de vrachtservices van Logisco.
             </p>
           </div>
 
           {/* Right Column */}
-          <div className="space-y-4">
+          <div className="space-y-4 mt-8 lg:mt-0">
             {faqData.map((item) => (
               <FaqItem
                 key={item.id}

@@ -35,7 +35,7 @@ const TestimonialSection = () => {
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
             description:
-                "I saved over 50% using Logisco over my company. The customer support staff was very helpful. I will definitely be using Logisco for all my future shipments. Thank you "
+                "Ik heb meer dan 50% bespaard door Logisco te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Logisco zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
         },
         {
             icon: (
@@ -57,7 +57,7 @@ const TestimonialSection = () => {
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
             description:
-                "I saved over 50% using Logisco over my company. The customer support staff was very helpful. I will definitely be using Logisco for all my future shipments. Thank you "
+                "Ik heb meer dan 50% bespaard door Logisco te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Logisco zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
         },
         {
             icon: (
@@ -79,7 +79,7 @@ const TestimonialSection = () => {
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
             description:
-                "I saved over 50% using Logisco over my company. The customer support staff was very helpful. I will definitely be using Logisco for all my future shipments. Thank you "
+                "Ik heb meer dan 50% bespaard door Logisco te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Logisco zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
         },
         {
             icon: (
@@ -101,7 +101,7 @@ const TestimonialSection = () => {
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
             description:
-                "I saved over 50% using Logisco over my company. The customer support staff was very helpful. I will definitely be using Logisco for all my future shipments. Thank you "
+                "Ik heb meer dan 50% bespaard door Logisco te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Logisco zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
         },
     ];
 

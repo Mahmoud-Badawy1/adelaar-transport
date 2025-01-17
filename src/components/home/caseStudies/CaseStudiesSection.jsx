@@ -31,10 +31,10 @@ const CaseStudiesSection = () => {
           <div className="flex justify-between items-center mb-8">
             <div>
               <span className="text-white text-sm font-medium bg-orange px-4 py-1.5 rounded-full mb-3 inline-block">
-                OUR CASE STUDIES
+              ONZE GEVALSTUDIES
               </span>
               <h2 className="text-3xl font-bold text-teal-900">
-                Best Cases by Logisco
+              Beste cases van Logisco
               </h2>
             </div>
 

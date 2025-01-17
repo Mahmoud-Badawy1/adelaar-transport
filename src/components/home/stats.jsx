@@ -20,7 +20,7 @@ const StatsSection = () => {
         </svg>
       ),
       number: "50k",
-      text: "Successful Transportation",
+      text: "Succesvol Vervoer",
     },
     {
       icon: (
@@ -40,7 +40,7 @@ const StatsSection = () => {
         </svg>
       ),
       number: "256",
-      text: "Land Freight Transportation",
+      text: "Wegvrachtvervoer",
     },
     {
       icon: (
@@ -60,7 +60,7 @@ const StatsSection = () => {
         </svg>
       ),
       number: "25+",
-      text: "Countries of Operation",
+      text: "Landen van Operatie",
     },
     {
       icon: (
@@ -80,7 +80,7 @@ const StatsSection = () => {
         </svg>
       ),
       number: "125",
-      text: "Train Freight Transportation",
+      text: "Treinvrachtvervoer",
     },
   ];
 

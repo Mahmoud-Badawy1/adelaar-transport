@@ -8,9 +8,9 @@ function CardPagination() {
   const data = Array.from({ length: 50 }, (_, index) => ({
     id: index + 1,
     name: `Rayan Williams`,
-    supname: `Transporter`,
-    title: `How new transportation system affecting ventures`,
-    description: `Logisco Air freight service deliver to know ledge & opportunity to optimize...`,
+    supname: `Vervoerder`,
+    title: `Hoe het nieuwe transportsysteem nieuwe ondernemingen beïnvloedt`,
+    description: `De luchtvrachtdienst van Logisco biedt kennis en kansen om te optimaliseren...`,
     tip: `DECEMBER 12, 2023`
   }));
 

@@ -9,7 +9,7 @@ function Award() {
           <div className="text-7xl text-orange" style={{marginTop:"0rem"}}>+</div>
         </div>
         <div className="text-xl md:text-3xl font-normal text-text1">
-          Awards from all over the world
+        Prijzen van over de hele wereld
         </div>
       </div>
       <div className="grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 flex-1">

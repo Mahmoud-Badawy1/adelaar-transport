@@ -5,7 +5,7 @@ function AboutAuthor() {
     <div className="bg-white border rounded-lg mt-5 mb-10 max-w-md sm:max-w-lg lg:max-w-2xl mx-auto">
       {/* Header Section */}
       <div className="px-4">
-        <div className="text-3xl text-green1 mt-8 mb-2 font-medium">About Author</div>
+        <div className="text-3xl text-green1 mt-8 mb-2 font-medium">Over de Auteur</div>
         <hr className="w-9 border-2 border-orange mb-6" />
       </div>
 
@@ -16,7 +16,7 @@ function AboutAuthor() {
 
       {/* Author Description */}
       <div className="mt-5 mb-5 text-text1 text-sm px-4 sm:px-8 text-center sm:text-left">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mo uelau dantium totam rem aperiam eaque ipsa quae ab illo inven.
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventa est.
       </div>
 
       {/* Social Media Icons */}

@@ -3,7 +3,7 @@ const SearchBox = () => {
       <div className="flex items-center border border-gray-300 h-14 overflow-hidden max-w-md">
         <input
           type="text"
-          placeholder="Search..."
+          placeholder="Zoeken..."
           className="flex-1 px-4 py-2 text-sm text-gray-700 placeholder-gray-500 focus:outline-none"
         />
         <button className="bg-orange hover:bg-orange-600 text-white px-4 py-2">

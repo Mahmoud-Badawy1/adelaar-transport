@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="bg-green3 text-white relative h-screen flex items-center">
       {/* Left Decorative Element */}
-      <div className="absolute left-10 top-1/2 transform -translate-y-1/2 space-y-4 items-center justify-center flex flex-col">
+      <div className="absolute left-10 top-1/2 transform -translate-y-1/2 space-y-4 items-center justify-center sm:flex flex-col hidden">
         {/* Orange Circle with Dot */}
         <div className="relative w-10 h-10 flex items-center justify-center">
           <div className="absolute w-10 h-10 border-2 border-orange rounded-full"></div>
@@ -18,16 +18,16 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="container mx-auto flex flex-col items-start justify-center px-4">
         <p className="text-gray-300 text-sm uppercase mb-4">
-          Logisco Transportation Inc
+        Logisco Transportbedrijf NV
         </p>
-        <h1 className="text-6xl font-bold leading-tight mb-6">
-          Modern Logistics <br /> Transportation
+        <h1 className="sm:text-6xl text-4xl font-bold leading-tight mb-6">
+        Moderne logistiek <br /> Transport
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-2xl">
-        Take your business to the next level with Logisco new business management tools. Logisco will open a new horizon for us.
+        Breng uw bedrijf naar het volgende niveau met de nieuwe bedrijfsmanagementtools van Logisco. Logisco zal een nieuwe horizon voor ons openen.
         </p>
         <button className="bg-orange px-6 py-3 rounded-md hover:bg-orange-600 transition flex items-center space-x-3 text-white text-lg font-medium">
-  <span>Contact Logisco</span>
+  <span>Neem contact op met Logisco</span>
   <div className="flex items-center justify-center bg-white w-8 h-8 rounded-md">
     <svg
       xmlns="http://www.w3.org/2000/svg"

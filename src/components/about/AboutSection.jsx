@@ -7,19 +7,19 @@ function AboutSection() {
 
         <div className="flex-1 text-center mt-10 md:mt-20 px-5 md:px-20">
           <div className="bg-white text-orange w-32 rounded-lg mx-auto md:ml-20 mb-5 text-sm p-1">
-            ABOUT LOGISCO
+          OVER LOGISCO
           </div>
           <div className="text-2xl md:text-4xl font-semibold">
-            About Logisco, Our love for logistics operation
+          Over Logisco: Onze passie voor logistieke operaties
           </div>
         </div>
 
         <div className="flex-1 mt-10 md:mt-20 px-5 md:px-20">
           <div className="text-sm leading-6">
-            Logisco Air freight service delivers the knowledge & opportunity to optimize every mile on every lane. Get full-service Truckload division provide more options to manage costs. We offer an array of services and tailored solutions for you.
+          De luchtvrachtdienst van Logisco biedt de kennis en kansen om elke kilometer op elke route te optimaliseren. Onze volledige service vrachtwagenladingdivisie biedt meer opties om kosten te beheren. We bieden een breed scala aan diensten en op maat gemaakte oplossingen voor u.
           </div>
           <div className="text-sm mt-5 md:mt-10 leading-6">
-            With years of expertise in the industry, we take responsibility for the performance of all our couriers and for ensuring the availability of equipment needed to control the flow of goods under our change.
+          Met jarenlange expertise in de branche nemen we de verantwoordelijkheid voor de prestaties van al onze koeriers en zorgen we voor de beschikbaarheid van de benodigde apparatuur om de goederenstroom onder onze controle te beheersen.
           </div>
         </div>
       </section>

@@ -13,10 +13,12 @@ function TeamCard({ id, selectedCard, handleCardClick }) {
         >
             <div className={`w-52 h-auto bg-white rounded-md text-center pt-3 mb-3 hover:scale-105 hover:bg-green4 hover:h-28  `}>
                 <div className="text-1xl font-bold">Loraine Lee</div>
-                <div className="text-sm text-gray2">Transportation Specialist</div>
-                <div className='relative' style={{ marginTop: "-6rem", marginLeft: "-1rem" }}>
-                    <img src="/images/icon plus.svg" alt="icon plus.svg" />
-                </div>
+                <div className="text-sm text-gray2">Transportatiespecialist</div>
+                <Link href="/team">
+  <div className="relative cursor-pointer" style={{ marginTop: "-6rem", marginLeft: "-1rem" }}>
+    <img src="/images/icon plus.svg" alt="icon plus.svg" />
+  </div>
+</Link>
                 <div className="flex  space-x-4 justify-center m-2  " >
                     <Link
                         href="https://www.facebook.com"

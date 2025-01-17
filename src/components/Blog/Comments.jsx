@@ -5,7 +5,7 @@ function Comments() {
     <>
       {/* Section Title */}
       <div className="px-4 mt-10">
-        <div className="text-3xl text-green1 mt-8 mb-2 font-medium">Comments</div>
+        <div className="text-3xl text-green1 mt-8 mb-2 font-medium">Reacties</div>
         <hr className="w-9 border-2 border-orange mb-6" />
       </div>
 
@@ -19,10 +19,9 @@ function Comments() {
               <div className="ml-0 md:ml-3 text-sm text-orange mt-1 md:mt-0">OCTOBER 11, 2022</div>
             </div>
             <div className="my-3 text-sm font-light">
-              As the world continues to fight COVID-19, some property owners are searching
-              for ways they can improve the security of their buildings.
+              Naarmate de wereld blijft vechten tegen COVID-19, zoeken sommige gebouweigenaren naar manieren om de veiligheid van hun gebouwen te verbeteren.
             </div>
-            <div className="text-sm text-orange cursor-pointer hover:underline">REPLY</div>
+            <div className="text-sm text-orange cursor-pointer hover:underline">ANTWOORDEN</div>
           </div>
         </div>
       </div>
@@ -37,10 +36,9 @@ function Comments() {
               <div className="ml-0 md:ml-3 text-sm text-orange mt-1 md:mt-0">OCTOBER 11, 2022</div>
             </div>
             <div className="my-3 text-sm font-light">
-              As the world continues to fight COVID-19, some property owners are searching
-              for ways they can improve the security of their buildings.
+              Naarmate de wereld blijft vechten tegen COVID-19, zoeken sommige gebouweigenaren naar manieren om de veiligheid van hun gebouwen te verbeteren.
             </div>
-            <div className="text-sm text-orange cursor-pointer hover:underline">REPLY</div>
+            <div className="text-sm text-orange cursor-pointer hover:underline">ANTWOORDEN</div>
           </div>
         </div>
       </div>
@@ -55,10 +53,9 @@ function Comments() {
               <div className="ml-0 md:ml-3 text-sm text-orange mt-1 md:mt-0">OCTOBER 11, 2022</div>
             </div>
             <div className="my-3 text-sm font-light">
-              As the world continues to fight COVID-19, some property owners are searching
-              for ways they can improve the security of their buildings.
+              Naarmate de wereld blijft vechten tegen COVID-19, zoeken sommige gebouweigenaren naar manieren om de veiligheid van hun gebouwen te verbeteren.
             </div>
-            <div className="text-sm text-orange cursor-pointer hover:underline">REPLY</div>
+            <div className="text-sm text-orange cursor-pointer hover:underline">ANTWOORDEN</div>
           </div>
         </div>
       </div>

@@ -1,22 +1,22 @@
 export const faqData = [
     {
       id: 1,
-      question: "What is the LBS weight cost of goods transportation?",
+      question: "Wat is de LBS-gewicht kostprijs voor goederenvervoer?",
       answer: "Mauris ut enim sit amet lacus ornare ullamcorper. Praesent placerat neque eu purus rhoncus, vel tincidunt odio ultrices. Sed theya arrum."
     },
     {
       id: 2,
-      question: "How much time it takes for LTL Freight transport?",
-      answer: "LTL (Less Than Truckload) freight transport typically takes 2-5 business days depending on the distance and route. Factors like weather conditions and seasonal volume can affect delivery times."
+      question: "Hoeveel tijd duurt het voor LTL-vrachtvervoer?",
+      answer: "LTL (Less Than Truckload) vrachtvervoer duurt meestal 2-5 werkdagen, afhankelijk van de afstand en de route. Factoren zoals weersomstandigheden en seizoensgebonden volumes kunnen de levertijden beïnvloeden."
     },
     {
       id: 3,
-      question: "What are the pick up points of logistics?",
-      answer: "Our logistics pickup points include major distribution centers, warehouses, manufacturing facilities, and designated collection points across the network. We provide flexible pickup options to suit your needs."
+      question: "Wat zijn de ophaalpunten voor logistiek?",
+      answer: "Onze logistieke ophaalpunten omvatten belangrijke distributiecentra, magazijnen, productiefaciliteiten en aangewezen verzamelpunten binnen het netwerk. We bieden flexibele ophaalmogelijkheden om aan uw behoeften te voldoen."
     },
     {
       id: 4,
-      question: "What is the cost of goods transportation?",
-      answer: "Transportation costs vary based on distance, weight, dimensions, and service level. We provide competitive rates with detailed breakdowns and offer custom quotes for specific requirements."
+      question: "Wat zijn de kosten voor goederenvervoer?",
+      answer: "De transportkosten variëren op basis van afstand, gewicht, afmetingen en serviceniveau. We bieden concurrerende tarieven met gedetailleerde kostenbesprekingen en bieden op maat gemaakte offertes voor specifieke vereisten."
     }
   ];

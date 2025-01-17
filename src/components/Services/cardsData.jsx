@@ -16,10 +16,10 @@ const cardData = [
           />
         </svg>
       ),
-      title: "Maritime Transportation",
+      title: "Maritiem Transport",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-        buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+        buttonText: "Lees meer",
         href: "/services/details" 
     },
     // Add more cards here...
@@ -40,10 +40,10 @@ const cardData = [
           />
         </svg>
       ),
-      title: "Land Freight Transportation",
+      title: "Wegvrachtvervoer",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     {
@@ -65,8 +65,8 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     {
@@ -88,8 +88,8 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     {
@@ -111,8 +111,9 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
+      href: "/services/details"
     },
     {
       icon: (
@@ -133,8 +134,8 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     {
@@ -156,8 +157,8 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     {
@@ -179,8 +180,8 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     {
@@ -202,8 +203,8 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     {
@@ -225,8 +226,8 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     {
@@ -248,8 +249,8 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     {
@@ -271,8 +272,8 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     {
@@ -294,8 +295,8 @@ const cardData = [
       ),
       title: "Intermodal Shipping",
       description:
-        "Logisco Air freight service delivers the knowledge & opportunity to optimize...",
-      buttonText: "Read More",
+        "De luchtvrachtdienst van Logisco biedt de kennis en kansen om te optimaliseren....",
+      buttonText: "Lees meer",
       href: "/services/details" 
     },
     

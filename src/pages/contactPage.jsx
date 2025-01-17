@@ -3,10 +3,12 @@ import FormContact from '@/components/Contact/formContact';
 import Header from '@/components/home/header';
 import React from 'react';
 import Footer from '@/components/footer';
+import Intro from '@/components/About/Intro'
 const Contact = () => {
   return (
     <>
     <Header />
+    <Intro title={"Contact"} />
     <CardContact />
     <FormContact />
     <Footer />

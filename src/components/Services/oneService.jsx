@@ -1,10 +1,13 @@
 import React from 'react'
+import ServiceOptions from './serviceOption'   // src/components/Services/ServiceOptions.jsx
 
-function DescripitionBlog() {
+function OneService() {
     return (
         <>
+         <div className='bg-gray1 h-96 w-full'></div>
+    <div className='my-5  font-semibold text-2xl sm:text-4xl'>Wegvrachtvervoer</div>
             <div className='font-light text-text1 mt-2'>
-                <div>Onze zakelijke adviesprogramma's helpen de prestaties van uw bedrijf op te splitsen in klant- en productgroepen, zodat u precies weet welke klanten of productgroepen goed presteren en welke niet. Dit stelt u in staat de nodige veranderingen door te voeren om de beste resultaten uit uw bedrijf te halen.</div>
+                <div>Onze zakelijke adviesprogramma's helpen de prestaties van uw bedrijf op te splitsen in klant- en productgroepen, zodat u precies weet welke klanten of productgroepen goed presteren en welke niet. Hierdoor kunt u de nodige veranderingen doorvoeren om de beste resultaten uit uw bedrijf te halen.</div>
                 <div className='my-3'>
                 In de afgelopen 35 jaar hebben we een sterke impact gehad en er ligt nog een lange weg voor ons.
                 </div>
@@ -15,7 +18,7 @@ function DescripitionBlog() {
 
             <div className='mt-3'>
                 <div className='px-4'>
-                    <div className="text-3xl text-green1 mt-8 mb-2 font-medium">Go trans Waarden</div>
+                    <div className="text-3xl text-green1 mt-8 mb-2 font-medium">Logistic Status</div>
                     <hr className="w-9 border-2 border-orange mb-6" />
                 </div>
                 <div className='px-4'>
@@ -54,8 +57,9 @@ function DescripitionBlog() {
                 <div className='font-light text-text1 mb-2'>Door elke dag vanuit het perspectief van onze klanten te denken, anticiperen we op wat ze willen, bieden we aan wat ze nodig hebben en bouwen we duurzame relaties. Dit zijn de concepten die onze onderscheidende cultuur vormgeven en ons onderscheiden van anderen.</div>
                 <div className='font-light text-text1 mb-2 '>We begeleiden onze klanten door moeilijke kwesties, waarbij we onze inzichten en oordelen toepassen op elke situatie. Onze innovatieve benaderingen creëren originele oplossingen voor onze klanten.</div>
             </div>
+            <ServiceOptions />
         </>
     )
 }
 
-export default DescripitionBlog
+export default OneService

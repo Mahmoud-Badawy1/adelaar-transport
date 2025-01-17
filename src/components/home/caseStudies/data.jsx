@@ -1,36 +1,36 @@
 export const caseStudies = [
   {
     id: 1,
-    category: 'AIR FREIGHT',
-    title: 'Relief Transportation For United Nations',
+    category: 'LUCHTVRACHT',
+    title: 'Hulptransport voor de Verenigde Naties',
     image: '',
     link: '#'
   },
   {
     id: 2,
-    category: 'CARGO FREIGHT',
-    title: '200 Matric ton Grain Freight For Mexico',
+    category: 'CARGOVRACHT',
+    title: '200 metrische ton graanvracht voor Mexico',
     image: '',
     link: '#'
   },
   {
     id: 3,
-    category: 'CONTAINER SHIPPING',
-    title: 'Shipping Large container From China to USA',
+    category: 'CONTAINERVERVOER',
+    title: 'Verzending van grote containers van China naar de VS',
     image: '',
     link: '#'
   },
   {
-    id: 3,
-    category: 'CONTAINER SHIPPING',
-    title: 'Shipping Large container From China to USA',
+    id: 4,
+    category: 'CONTAINERVERVOER',
+    title: 'Verzending van grote containers van China naar de VS',
     image: '',
     link: '#'
   },
   {
-    id: 3,
-    category: 'CONTAINER SHIPPING',
-    title: 'Shipping Large container From China to USA',
+    id: 5,
+    category: 'CONTAINERVERVOER',
+    title: 'Verzending van grote containers van China naar de VS',
     image: '',
     link: '#'
   },

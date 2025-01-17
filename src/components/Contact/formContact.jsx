@@ -6,9 +6,9 @@ function FormContact() {
       <div className="max-w-4xl mx-auto bg-green4 pt-14 pb-14 px-6 md:px-12 lg:px-36 rounded-lg shadow-lg">
         <div>
           <div className="text-center text-white">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4">Drop Us A Line</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4">Laat ons een bericht achter</h2>
             <p className="text-sm md:text-base font-semibold mb-4">
-              Logisco transportation will help you to solve your problem
+            Logisco transport helpt u om uw probleem op te lossen
             </p>
             <hr className="mx-auto w-20 border-2 border-white mb-6" />
           </div>
@@ -19,14 +19,14 @@ function FormContact() {
                 id="name"
                 className="w-full p-2 border border-gray-300 m-1 md:m-0"
                 required
-                placeholder="Name*"
+                placeholder="Naam*"
               />
               <input
                 type="tel"
                 id="phone"
                 className="w-full p-2 border border-gray-300 m-1 md:m-0"
                 required
-                placeholder="Phone No."
+                placeholder="Telefoonnummer"
               />
             </div>
             <div className="flex flex-col md:flex-row md:gap-4 mb-4">
@@ -42,7 +42,7 @@ function FormContact() {
                 id="subject"
                 className="w-full p-2 border border-gray-300 m-1 md:m-0"
                 required
-                placeholder="Subject*"
+                placeholder="Onderwerp*"
               />
             </div>
             <div className="mb-4">
@@ -51,7 +51,7 @@ function FormContact() {
                 className="w-full p-2 border border-gray-300"
                 rows="4"
                 required
-                placeholder="Text*"
+                placeholder="Bericht*"
               ></textarea>
             </div>
             <div className="text-center">
@@ -59,7 +59,7 @@ function FormContact() {
                 type="submit"
                 className="bg-orange text-white pt-4 pb-4 px-8 font-bold rounded-lg hover:bg-gray2 transition duration-300"
               >
-                Submit
+                Verzenden
               </button>
             </div>
           </form>
