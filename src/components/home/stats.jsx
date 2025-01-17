@@ -4,80 +4,28 @@ const StatsSection = () => {
   const stats = [
     {
       icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-12 w-12 text-orange"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M3 10h11M9 21V3M17 8h4M21 8h-4m4 0v4m0-4v4M3 21h11M9 21V3"
-          />
-        </svg>
+        <img src="/images/plane2.svg" alt="" />
       ),
       number: "50k",
       text: "Succesvol Vervoer",
     },
     {
       icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-12 w-12 text-orange"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M4 4h16v16H4V4zm5 8h2v2h2v-2h2m-6 0V8h4v4h-4zm8-2h2v4h-2z"
-          />
-        </svg>
+        <img src="/images/truckoutline.svg" alt="" />
       ),
       number: "256",
       text: "Wegvrachtvervoer",
     },
     {
       icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-12 w-12 text-orange"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M16 13h6M2 7h6M6 21h4"
-          />
-        </svg>
+        <img src="/images/trade.svg" alt="" />
       ),
       number: "25+",
       text: "Landen van Operatie",
     },
     {
       icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-12 w-12 text-orange"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M3 13h6M3 7h6M3 19h6M9 3v20M12 12h8"
-          />
-        </svg>
+        <img src="/images/train1.svg" alt="" />
       ),
       number: "125",
       text: "Treinvrachtvervoer",

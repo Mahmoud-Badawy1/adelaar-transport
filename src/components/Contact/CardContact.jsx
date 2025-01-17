@@ -11,8 +11,8 @@ function CardContact() {
         <div className='text-center p-2'>
         <div className='font-bold'>
         Stuur ons een e-mail</div>
-        <div className='font-sans text-text1'>Logisco.care@email.com</div>
-        <div className='font-sans text-text1'>info.logisco@email.com</div>
+        <div className='font-sans text-text1'>Adelaar Transport.care@email.com</div>
+        <div className='font-sans text-text1'>info.Adelaar Transport@email.com</div>
         </div>
     </div>
     <div className='w-64  bg-white rounded border m-5 '>

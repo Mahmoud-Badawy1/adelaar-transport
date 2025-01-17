@@ -3,14 +3,19 @@
 import React from "react";
 import Link from "next/link";
 
-const Card = ({ icon, title, description, buttonText, href }) => {
+const Card = ({ icon, title, description, buttonText, href, image }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden text-start transition-transform duration-300 hover:transform hover:-translate-y-1">
       {/* Gray Background Section */}
-      <div className="bg-gray-200 h-40 sm:h-44 md:h-48 lg:h-52 relative">
+      <div 
+        className="h-40 sm:h-44 md:h-48 lg:h-52 relative bg-cover bg-center"
+        style={{ 
+          backgroundImage: `url(${image?.props?.src || '/images/default.jpg'})` 
+        }}
+      >
         {/* Circular Icon */}
         <div className="absolute bottom-0 right-2/3 transform -translate-x-1/2 translate-y-1/2 bg-white border-4 border-lightOrange w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-md transition-transform duration-300 hover:scale-110">
-          <div className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8">
+          <div className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 justify-center items-center flex">
             {icon}
           </div>
         </div>

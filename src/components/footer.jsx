@@ -8,10 +8,10 @@ const Footer = () => {
           <div className="flex items-center gap-2">
             <img 
               src="/images/logo.png" 
-              alt="Logisco Logo" 
+              alt="Adelaar Transport Logo" 
               className="w-10 h-auto sm:w-12" 
             />
-            <span className="text-xl sm:text-2xl font-bold">Logisco</span>
+            <span className="text-xl sm:text-2xl font-bold">Adelaar Transport</span>
           </div>
 
           {/* Track Your Freight - Full width on mobile, auto width on desktop */}
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="text-center lg:text-left w-full lg:w-auto">
               <h3 className="font-medium text-base sm:text-lg">Volg uw vracht</h3>
               <p className="text-xs sm:text-sm text-gray-300">
-                Volg uw goederen met Logisco vrachtvervoer
+                Volg uw goederen met Adelaar Transport vrachtvervoer
               </p>
             </div>
           </div>
@@ -121,23 +121,15 @@ const Footer = () => {
           <div className="container mx-auto px-4 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="flex items-center gap-3">
-                <div className="p-2 rounded-full bg-coral-500/10">
-                  <svg className="w-5 h-5 text-coral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                </div>
+              <img src="/images/mail.svg" alt="" className="w-7 h-7 lg:w-14 lg:h-14"/>
                 <div>
                   <p className="text-coral-500 text-sm">E-MAIL ONS</p>
-                  <p className="text-white">Service@Logiscocare.Com</p>
+                  <p className="text-white">Service@Adelaar Transportcare.Com</p>
                 </div>
               </div>
   
               <div className="flex items-center gap-3">
-                <div className="p-2 rounded-full bg-coral-500/10">
-                  <svg className="w-5 h-5 text-coral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                </div>
+              <img src="/images/contact.svg" alt="" className="w-7 h-7 lg:w-14 lg:h-14"/>
                 <div>
                   <p className="text-coral-500 text-sm">STEUN 24/7</p>
                   <p className="text-white">+1 23334 5678 899</p>
@@ -145,14 +137,9 @@ const Footer = () => {
               </div>
   
               <div className="flex items-center gap-3">
-                <div className="p-2 rounded-full bg-coral-500/10">
-                  <svg className="w-5 h-5 text-coral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                </div>
+              <img src="/images/map.svg" alt="" className="w-7 h-7 lg:w-14 lg:h-14"/>
                 <div>
-                  <p className="text-coral-500 text-sm">LOGISCO HOOFDKWARTIER</p>
+                  <p className="text-coral-500 text-sm">Adelaar Transport HOOFDKWARTIER</p>
                   <p className="text-white">116th Ave, WA 98058-5055,USA</p>
                 </div>
               </div>
@@ -165,7 +152,7 @@ const Footer = () => {
           <div className="container mx-auto px-4 py-4">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-gray-400 text-sm">
-                © 2023 <span className="text-coral-500">Logisco</span> transport en Logistiek / Alle rechten voorbehouden
+                © 2023 <span className="text-coral-500">Adelaar Transport</span> transport en Logistiek / Alle rechten voorbehouden
               </p>
               <div className="flex items-center gap-2 sm:gap-4 text-gray-400 text-sm">
                 <a href="#" className="hover:text-white transition-colors">Privacy</a>

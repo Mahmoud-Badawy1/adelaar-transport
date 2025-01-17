@@ -9,7 +9,7 @@ const HeroService = () => {
         Our Services
         </h1>
         <button className="bg-orange px-6 py-3 rounded-md hover:bg-orange-600 transition flex items-center space-x-3 text-white text-lg font-medium">
-  <span>Contact Logisco</span>
+  <span>Contact Adelaar Transport</span>
   <div className="flex items-center justify-center bg-white w-8 h-8 rounded-md">
     <svg
       xmlns="http://www.w3.org/2000/svg"

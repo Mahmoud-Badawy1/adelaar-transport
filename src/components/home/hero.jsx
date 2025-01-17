@@ -18,16 +18,16 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="container mx-auto flex flex-col items-start justify-center px-4">
         <p className="text-gray-300 text-sm uppercase mb-4">
-        Logisco Transportbedrijf NV
+        Adelaar Transport Transportbedrijf NV
         </p>
         <h1 className="sm:text-6xl text-4xl font-bold leading-tight mb-6">
         Moderne logistiek <br /> Transport
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-2xl">
-        Breng uw bedrijf naar het volgende niveau met de nieuwe bedrijfsmanagementtools van Logisco. Logisco zal een nieuwe horizon voor ons openen.
+        Breng uw bedrijf naar het volgende niveau met de nieuwe bedrijfsmanagementtools van Adelaar Transport. Adelaar Transport zal een nieuwe horizon voor ons openen.
         </p>
         <button className="bg-orange px-6 py-3 rounded-md hover:bg-orange-600 transition flex items-center space-x-3 text-white text-lg font-medium">
-  <span>Neem contact op met Logisco</span>
+  <span>Neem contact op met Adelaar Transport</span>
   <div className="flex items-center justify-center bg-white w-8 h-8 rounded-md">
     <svg
       xmlns="http://www.w3.org/2000/svg"

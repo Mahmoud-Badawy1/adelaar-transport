@@ -8,7 +8,7 @@ function FormContact() {
           <div className="text-center text-white">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4">Laat ons een bericht achter</h2>
             <p className="text-sm md:text-base font-semibold mb-4">
-            Logisco transport helpt u om uw probleem op te lossen
+            Adelaar Transport transport helpt u om uw probleem op te lossen
             </p>
             <hr className="mx-auto w-20 border-2 border-white mb-6" />
           </div>

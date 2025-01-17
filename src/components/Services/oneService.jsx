@@ -22,7 +22,7 @@ function OneService() {
                     <hr className="w-9 border-2 border-orange mb-6" />
                 </div>
                 <div className='px-4'>
-                    <div className='font-light text-text1 mb-2'>Bij Logisco komt onze cultuur tot leven door drie kernwaarden:</div>
+                    <div className='font-light text-text1 mb-2'>Bij Adelaar Transport komt onze cultuur tot leven door drie kernwaarden:</div>
                     <div className='ml-7'>
                         {[
                             'We seize opportunities to innovate and grow',

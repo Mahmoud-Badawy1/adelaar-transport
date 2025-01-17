@@ -36,14 +36,14 @@ const About = () => {
         <div className="space-y-4 text-start w-full sm:w-[80%] order-1 lg:order-2">
           <div className="items-center space-x-2 bg-orange px-4 py-1 rounded-full inline-block">
             <span className="text-white uppercase font-bold text-sm">
-              Over Logisco
+              Over Adelaar Transport
             </span>
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-green3">
             We houden uw goederen schadevrij
           </h2>
           <p className="text-gray-500 text-sm lg:text-base">
-            De luchtvrachtdienst van Logisco biedt de kennis en kansen om elke kilometer op elke route te optimaliseren. 
+            De luchtvrachtdienst van Adelaar Transport biedt de kennis en kansen om elke kilometer op elke route te optimaliseren. 
             Kies voor volledige service. Onze vrachtwagenladingdivisie biedt meer opties om kosten te beheren door 
             technologie en intelligentie te combineren.
           </p>

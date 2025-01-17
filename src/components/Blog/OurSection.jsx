@@ -10,7 +10,7 @@ function CardPagination() {
     name: `Rayan Williams`,
     supname: `Vervoerder`,
     title: `Hoe het nieuwe transportsysteem nieuwe ondernemingen beïnvloedt`,
-    description: `De luchtvrachtdienst van Logisco biedt kennis en kansen om te optimaliseren...`,
+    description: `De luchtvrachtdienst van Adelaar Transport biedt kennis en kansen om te optimaliseren...`,
     tip: `DECEMBER 12, 2023`
   }));
 

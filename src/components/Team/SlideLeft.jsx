@@ -9,7 +9,7 @@ function SlideLeft() {
       {/* النصوص الرئيسية */}
       <div className="text-center sm:text-left">
         <div className="text-2xl sm:text-3xl pb-2">Jackson Reyan Miller</div>
-        <div className="text-sm text-text1">Head Of Operation, Logisco</div>
+        <div className="text-sm text-text1">Head Of Operation, Adelaar Transport</div>
       </div>
       
       {/* تفاصيل الاتصال */}

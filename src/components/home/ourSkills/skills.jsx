@@ -17,7 +17,7 @@ const OurSkills = () => {
       </h2>
       
       <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8">
-        De luchtvrachtdienst van Logisco biedt de kennis en kansen om elke kilometer te optimaliseren.
+        De luchtvrachtdienst van Adelaar Transport biedt de kennis en kansen om elke kilometer te optimaliseren.
       </p>
 
       <div className="space-y-4 sm:space-y-6">

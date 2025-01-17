@@ -26,7 +26,7 @@ const FaqSection = () => {
               <span className="block">Vind het antwoord hier.</span>
             </h2>
             <p className="text-gray-600 text-base md:text-lg max-w-prose">
-              Enkele veelgestelde vragen over de vrachtservices van Logisco.
+              Enkele veelgestelde vragen over de vrachtservices van Adelaar Transport.
             </p>
           </div>
 

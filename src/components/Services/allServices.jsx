@@ -39,6 +39,7 @@ const ServicesSection = () => {
           {currentCards.map((card, index) => (
             <Card
               key={index}
+              image={card.image}
               icon={card.icon}
               title={card.title}
               description={card.description}

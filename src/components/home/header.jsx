@@ -22,7 +22,7 @@ const Header = () => {
           <Link href="/">
             <img
               src="/images/logo.png"
-              alt="Logisco Logo"
+              alt="Adelaar Transport Logo"
               className="w-32 h-auto"
             />
           </Link>

@@ -25,7 +25,7 @@ function Team() {
           Maak kennis met de belangrijkste teamleden
         </h2>
         <p className="text-gray-500 mt-4 max-w-2xl mx-auto">
-          De luchtvrachtdienst van Logisco biedt de kennis en kansen om elke
+          De luchtvrachtdienst van Adelaar Transport biedt de kennis en kansen om elke
           kilometer op elke route te optimaliseren. Kies voor volledige service.
         </p>
       </div>

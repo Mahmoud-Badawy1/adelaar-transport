@@ -34,7 +34,7 @@ const CaseStudiesSection = () => {
               ONZE GEVALSTUDIES
               </span>
               <h2 className="text-3xl font-bold text-teal-900">
-              Beste cases van Logisco
+              Beste cases van Adelaar Transport
               </h2>
             </div>
 

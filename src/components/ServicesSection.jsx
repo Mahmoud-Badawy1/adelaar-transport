@@ -56,6 +56,7 @@ const ServicesSection = () => {
                 style={{ scrollSnapAlign: "start" }}
               >
                 <Card
+                  image={card.image}
                   icon={card.icon}
                   title={card.title}
                   description={card.description}

@@ -17,91 +17,39 @@ const TestimonialSection = () => {
     const cardData = [
         {
             icon: (
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 text-orange"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9.75 9.75L14.25 14.25M9.75 14.25L14.25 9.75M12 3.75V20.25M3.75 12H20.25"
-                    />
-                </svg>
+                    <img src="" alt="" />
             ),
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
             description:
-                "Ik heb meer dan 50% bespaard door Logisco te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Logisco zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
+                "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
         },
         {
             icon: (
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 text-orange"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9.75 9.75L14.25 14.25M9.75 14.25L14.25 9.75M12 3.75V20.25M3.75 12H20.25"
-                    />
-                </svg>
+                <img src="" alt="" />
             ),
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
             description:
-                "Ik heb meer dan 50% bespaard door Logisco te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Logisco zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
+                "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
         },
         {
             icon: (
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 text-orange"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9.75 9.75L14.25 14.25M9.75 14.25L14.25 9.75M12 3.75V20.25M3.75 12H20.25"
-                    />
-                </svg>
+                <img src="" alt="" />
             ),
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
             description:
-                "Ik heb meer dan 50% bespaard door Logisco te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Logisco zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
+                "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
         },
         {
             icon: (
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 text-orange"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9.75 9.75L14.25 14.25M9.75 14.25L14.25 9.75M12 3.75V20.25M3.75 12H20.25"
-                    />
-                </svg>
+                <img src="" alt="" />
             ),
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
             description:
-                "Ik heb meer dan 50% bespaard door Logisco te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Logisco zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
+                "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
         },
     ];
 
