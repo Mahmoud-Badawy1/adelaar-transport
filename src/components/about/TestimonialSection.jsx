@@ -106,7 +106,7 @@ const TestimonialSection = () => {
     ];
 
     return (
-        <section className="relative bg-transparent">
+        <section className="relative bg-transparent py-20">
             <div className="container mx-auto px-4">
                 <div
                     ref={scrollRef}

@@ -5,8 +5,8 @@ function Testimonial() {
   return (
     <>
     <section
-    className="relative py-96 mt-14 bg-cover bg-center"
-    style={{ backgroundImage: "url('/images/Testimonial.svg')" }}
+    className="relative py-96 mt-14 bg-center bg-no-repeat"
+    style={{ backgroundImage: "url('/images/Testimonial.svg')" , backgroundSize:"fit-content"}}
   >
     <div className="text-center  " style={{marginTop:"-21rem"}}>
       <div className="inline-block bg-orange rounded-full p-3">

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
-
+import Link from 'next/link';
 function CardPagination() {
   // البيانات الوهمية
   const data = Array.from({ length: 50 }, (_, index) => ({
@@ -38,9 +38,9 @@ function CardPagination() {
         {currentItems.map((item) => (
           <div
             key={item.id}
-            className="border border-gray-300 rounded shadow-md bg-white"
+            className="rounded-md shadow-md bg-white"
           >
-            <div className="bg-gray-200 w-full h-52"></div>
+            <div className="bg-gray-200 w-full h-52 rounded-t-md"></div>
             <div className="flex items-start justify-between mt-2 px-4">
               <div className="flex items-start">
                 <img src="/images/image.png" alt="" className="w-16 h-16 rounded-full" />
@@ -50,7 +50,7 @@ function CardPagination() {
                 </div>
               </div>
               
-              <div className="p-1 bg-orange text-white" style={{marginTop:"-1.5rem",borderBottomLeftRadius:"7px",borderTopLeftRadius:"7px"}}>
+              <div className="p-1 w-full rounded-l-md bg-orange text-white" style={{marginTop:"-2rem", marginRight:"-1rem"}}>
                 {item.tip}
              </div>
             </div>
@@ -58,7 +58,7 @@ function CardPagination() {
             <div className="px-8 pb-8">
               <h2 className="text-xl font-semibold text-orange">{item.title}</h2>
               <p className="text-gray-700 mt-2 mb-2">{item.description}</p>
-              <button className="font-semibold text-orange-500">Read Article {'->'}</button>
+              <Link className="font-semibold text-orange-500" href="/blog/details" >Read Article {'->'}</Link>
             </div>
           </div>
         ))}

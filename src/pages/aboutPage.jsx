@@ -7,7 +7,7 @@ import Team from '../components/about/Team'
 import WhyChooseUs from '../components/home/whyUs'
 import Testimonial from '../components/about/Testimonial'
 import StatsSection from '../components/home/stats'
-
+import Footer from '../components/footer'
 const AboutPage = () =>  {
   return (
     <div className="min-h-screen">
@@ -18,7 +18,8 @@ const AboutPage = () =>  {
     <StatsSection />
     <Team />
     <WhyChooseUs />
-    <Testimonial />
+    <Testimonial/>
+    <Footer className="" />
   </div>
   )
 }
