@@ -1,6 +1,6 @@
-import React from 'react'
-import ServiceOptions from './serviceOption'   // src/components/Services/ServiceOptions.jsx
-import Image from 'next/image'
+import React from "react"
+import ServiceOptions from "./serviceOption"  // src/components/Services/ServiceOptions.jsx
+import Image from "next/image"
 function OneService() {
     return (
         <>
