@@ -9,7 +9,7 @@ import Team from '../components/about/Team';
 import Testimonial from '../components/about/Testimonial'
 import SkillsSection from '../components/home/ourSkills/skillsSection'
 import CaseStudiesSection from '../components/home/caseStudies/CaseStudiesSection'
-import FaqSection from '../components/home/faq/FaqSection'
+import FaqSection from '../components/home/FAQ/FaqSection'
 import Footer from '../components/footer'
 const Home = () => {
   return (

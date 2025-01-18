@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact from '@/pages/ContactPage';
+import Contact from '@/pages/contactPage';
 
 const ContactPage = () => {
   return (
