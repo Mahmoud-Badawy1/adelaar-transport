@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/home/Header';
+import Header from '../components/home/header';
 import HeroService from '../components/Services/heroService';
 import AllServices from '../components/Services/allServices';
 import Footer from '../components/Footer';

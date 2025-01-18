@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Header from '../components/home/Header';
+import Header from '../components/home/header';
 import HeroService from '../components/Services/heroService';
 import OneService from '../components/Services/oneService';
 import Footer from '../components/Footer';

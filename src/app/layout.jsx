@@ -1,5 +1,4 @@
 import './globals.css';
-import Header from '../components/home/Header';
 
 export const metadata = {
   title: 'Adelaar Transport | Logistics Solutions',
