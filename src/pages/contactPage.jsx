@@ -3,7 +3,7 @@ import FormContact from '@/components/Contact/formContact';
 import Header from '@/components/home/header';
 import React from 'react';
 import Footer from '@/components/footer';
-import Intro from '@/components/About/Intro'
+import Intro from '@/components/about/Intro'
 const Contact = () => {
   return (
     <>
