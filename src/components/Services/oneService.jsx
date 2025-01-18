@@ -42,7 +42,7 @@ function OneService() {
                 <div className="h-80 w-full bg-gray2 lg:ml-3"></div>
             </div>
 
-            <div className='my-8'>
+            <div className="my-8">
                 <div className="font-light text-text1 mb-2">We begeleiden onze klanten door moeilijke kwesties, waarbij we onze inzichten en oordelen toepassen op elke situatie. Onze innovatieve benaderingen creëren originele oplossingen voor de meest complexe binnenlandse en internationale deals en geschillen van onze klanten.</div>
                 <div className="font-light text-text1 mb-2">Door elke dag vanuit het perspectief van onze klanten te denken, anticiperen we op wat ze willen, bieden we aan wat ze nodig hebben en bouwen we duurzame relaties. Dit zijn de concepten die onze onderscheidende cultuur vormgeven en ons onderscheiden van anderen.</div>
             </div>
