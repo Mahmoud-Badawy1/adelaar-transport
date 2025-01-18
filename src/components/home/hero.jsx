@@ -31,7 +31,7 @@ const Hero = () => {
         <p className="text-gray-300 text-lg mb-8 max-w-2xl">
         Breng uw bedrijf naar het volgende niveau met de nieuwe bedrijfsmanagementtools van Adelaar Transport. Adelaar Transport zal een nieuwe horizon voor ons openen.
         </p>
-        <button className="bg-orange px-6 py-3 rounded-md hover:bg-orange-600 transition flex items-center space-x-3 text-white text-lg font-medium">
+        <button  onClick={handleNavigation} className="bg-orange px-6 py-3 rounded-md hover:bg-orange-600 transition flex items-center space-x-3 text-white text-lg font-medium">
   <span>Neem contact op met Adelaar Transport</span>
   <div className="flex items-center justify-center bg-white w-8 h-8 rounded-md">
     <svg
@@ -45,7 +45,6 @@ const Hero = () => {
       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
     </svg>
   </div>
-  onClick={handleNavigation}
 </button>
       </div>
     </section>

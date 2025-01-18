@@ -15,26 +15,26 @@ function Award() {
       <div className="grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 flex-1">
         <div className="bg-white border w-32 sm:w-40 p-5 rounded-lg">
           <Image 
-          src="/images/Award1.svg" 
+          src="/Award1.svg" 
           alt="Award 1"
           width={128}
           height={128}
            />
         </div>
         <div className="bg-white border w-32 sm:w-40 p-5 rounded-lg">
-          <Image width={128} height={128} src="/images/Award2.svg" alt="Award 2" />
+          <Image width={128} height={128} src="/Award2.svg" alt="Award 2" />
         </div>
         <div className="bg-white border w-32 sm:w-40 p-5 rounded-lg">
-          <Image width={128} height={128}  src="/images/Award3.svg" alt="Award 3" />
+          <Image width={128} height={128}  src="/Award3.svg" alt="Award 3" />
         </div>
         <div className="bg-white border w-32 sm:w-40 p-5 rounded-lg">
-          <Image width={128} height={128}  src="/images/Award4.svg" alt="Award 4" />
+          <Image width={128} height={128}  src="/Award4.svg" alt="Award 4" />
         </div>
         <div className="bg-white border w-32 sm:w-40 p-5 rounded-lg">
-          <Image width={128} height={128}  src="/images/Award5.svg" alt="Award 5" />
+          <Image width={128} height={128}  src="/Award5.svg" alt="Award 5" />
         </div>
         <div className="bg-white border w-32 sm:w-40 p-5 rounded-lg">
-          <Image width={128} height={128}  src="/images/Award6.svg" alt="Award 6" />
+          <Image width={128} height={128}  src="/Award6.svg" alt="Award 6" />
         </div>
       </div>
     </section>

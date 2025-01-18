@@ -5,7 +5,7 @@ const LogisticsServices = () => {
   return (
     <section
     className="relative py-16 bg-cover bg-center"
-    style={{ backgroundImage: "url('/images/bg.svg')" }}
+    style={{ backgroundImage: "url('/bg.svg')" }}
   >
       {/* Section Header */}
       <div className="text-center mb-12">

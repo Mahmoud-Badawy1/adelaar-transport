@@ -13,7 +13,7 @@ function Team() {
   return (
     <section
       className="relative pt-32 pb-28 bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/bg.svg')" }}
+      style={{ backgroundImage: "url('/bg.svg')" }}
     >
       <div className="text-center mb-12">
         <div className="inline-block bg-orange rounded-full p-3">

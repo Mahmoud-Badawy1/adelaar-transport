@@ -23,12 +23,12 @@ const ServiceDetails = () => {
           <div className="bg-transparent p-4 mb-6">
           <div className="space-y-4">
   {[
-    { service: "Wegvrachtvervoer", imgSrc: "/images/Delivery-Truck.svg" },
-    { service: "Sea Freight Transportation", imgSrc: "/images/Ship-1.svg" },
-    { service: "Air Freight Transportation", imgSrc: "/images/plane.svg" },
-    { service: "Spoorvrachtvervoer", imgSrc: "/images/Train.svg" },
-    { service: "LTL Vrachtvervoer", imgSrc: "/images/Pickup-Truck.svg" },
-    { service: "Warehousing Services", imgSrc: "/images/Cart1.svg" },
+    { service: "Wegvrachtvervoer", imgSrc: "/Delivery-Truck.svg" },
+    { service: "Sea Freight Transportation", imgSrc: "/Ship-1.svg" },
+    { service: "Air Freight Transportation", imgSrc: "/plane.svg" },
+    { service: "Spoorvrachtvervoer", imgSrc: "/Train.svg" },
+    { service: "LTL Vrachtvervoer", imgSrc: "/Pickup-Truck.svg" },
+    { service: "Warehousing Services", imgSrc: "/Cart1.svg" },
   ].map(({ service, imgSrc }, index) => (
     <div
       key={index}
@@ -67,7 +67,7 @@ const ServiceDetails = () => {
         <Image
         width={420}
         height={637}
-    src="/images/Union.svg"
+    src="/Union.svg"
     alt="Decorative curve"
     className="absolute bottom-0 left-0 w-full"
   />

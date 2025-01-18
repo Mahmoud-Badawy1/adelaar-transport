@@ -21,7 +21,7 @@ function Share() {
           <Image 
           width={144}
           height={144}
-            src="/images/person.jpg"
+            src="/person.jpg"
             alt="image"
             className="w-36 object-cover rounded-full shadow-lg"
           />
@@ -32,10 +32,10 @@ function Share() {
           Door elke dag vanuit het perspectief van onze klanten te denken, anticiperen we op wat ze willen, bieden we aan wat ze nodig hebben en bouwen we duurzame relaties.
           </div>
           <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-            <Image width={32} height={32} src="/images/icon.svg" alt="icon" className="w-8 h-8" />
-            <Image width={32} height={32} src="/images/icon (1).svg" alt="icon" className="w-8 h-8" />
-            <Image width={32} height={32} src="/images/icon (2).svg" alt="icon" className="w-8 h-8" />
-            <Image width={32} height={32} src="/images/icon (3).svg" alt="icon" className="w-8 h-8" />
+            <Image width={32} height={32} src="/icon.svg" alt="icon" className="w-8 h-8" />
+            <Image width={32} height={32} src="/icon (1).svg" alt="icon" className="w-8 h-8" />
+            <Image width={32} height={32} src="/icon (2).svg" alt="icon" className="w-8 h-8" />
+            <Image width={32} height={32} src="/icon (3).svg" alt="icon" className="w-8 h-8" />
           </div>
         </div>
       </div>

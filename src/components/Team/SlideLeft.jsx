@@ -4,7 +4,7 @@ function SlideLeft() {
   return (
     <>
       {/* الحاوية الأساسية */}
-      <div className="bg-gray1 h-72 w-full max-w-xs sm:h-96 sm:w-96 mb-5 rounded-lg mx-auto bg-cover bg-center" style={{backgroundImage: `url('/images/person.jpg')`}}></div>
+      <div className="bg-gray1 h-72 w-full max-w-xs sm:h-96 sm:w-96 mb-5 rounded-lg mx-auto bg-cover bg-center" style={{backgroundImage: `url('/person.jpg')`}}></div>
       
       {/* النصوص الرئيسية */}
       <div className="text-center sm:text-left">
@@ -51,16 +51,16 @@ function SlideLeft() {
           </div>
           {/* باقي الأيقونات */}
           <div>
-            <Image width={48} height={48} src="/images/2.svg" alt="2.svg" className="h-12 w-12" />
+            <Image width={48} height={48} src="/2.svg" alt="2.svg" className="h-12 w-12" />
           </div>
           <div>
-            <Image width={48} height={48} src="/images/3.svg" alt="3.svg" className="h-12 w-12"  />
+            <Image width={48} height={48} src="/3.svg" alt="3.svg" className="h-12 w-12"  />
           </div>
           <div>
-            <Image width={48} height={48} src="/images/4.svg" alt="4.svg" className="h-12 w-12"  />
+            <Image width={48} height={48} src="/4.svg" alt="4.svg" className="h-12 w-12"  />
           </div>
           <div>
-            <Image width={48} height={48} src="/images/5.svg" alt="5.svg" className="h-12 w-12"  />
+            <Image width={48} height={48} src="/5.svg" alt="5.svg" className="h-12 w-12"  />
           </div>
         </div>
       </div>

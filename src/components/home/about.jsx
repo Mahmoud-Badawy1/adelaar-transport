@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       className="relative py-12 lg:py-20 bg-cover bg-center justify-center"
-      style={{ backgroundImage: "url('/images/aboutBg.svg')" }}
+      style={{ backgroundImage: "url('/aboutBg.svg')" }}
     >
       <div className="container mx-auto px-4 lg:px-0 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Image Section */}
@@ -12,10 +12,10 @@ const About = () => {
           {/* Large Image */}
           <div
   className="w-[250px] sm:w-[300px] h-[350px] sm:h-[400px] bg-gray-200 rounded-lg shadow-lg relative border-4 border-white bg-cover"
-  style={{ backgroundImage: "url('/images/aboutImg.jpg')" }}
+  style={{ backgroundImage: "url('/aboutImg.jpg')" }}
 >            {/* Small Image */}
             <div className="w-[150px] sm:w-[180px] h-[190px] sm:h-[220px] bg-gray-400 rounded-lg shadow-lg absolute 
-                          right-[0%] sm:right-[-30%] top-1/2 transform -translate-y-1/2 border-4 border-white bg-cover" style={{ backgroundImage: "url('/images/small.jpg')" }}>
+                          right-[0%] sm:right-[-30%] top-1/2 transform -translate-y-1/2 border-4 border-white bg-cover" style={{ backgroundImage: "url('/small.jpg')" }}>
               {/* Badge */}
               <div className="absolute -bottom-[90px] sm:-bottom-[103px] left-1/2 transform -translate-x-1/2 
                             bg-orange text-white text-center px-4 py-2 shadow-lg 
@@ -64,7 +64,7 @@ const About = () => {
                 <Image
                   width={16}
                   height={16}
-                  src="/images/iconarrow.svg"
+                  src="/iconarrow.svg"
                   alt="Arrow Icon"
                   className="w-3 lg:w-4 h-3 lg:h-4"
                 />
@@ -118,11 +118,11 @@ const About = () => {
 
        {/* Logos Section */}
        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-28 px-4 md:px-10">
-  <Image width={140} height={40} src="/images/logistics.svg" alt="Logistics" className="h-10 mx-auto" />
-  <Image width={140} height={40} src="/images/freightex.svg" alt="Freightex" className="h-10 mx-auto" />
-  <Image width={140} height={40} src="/images/travelgood.svg" alt="Travelgood" className="h-10 mx-auto" />
-  <Image width={140} height={40} src="/images/trucking.svg" alt="Trucking" className="h-10 mx-auto" />
-  <Image width={140} height={40} src="/images/flyfaster.svg" alt="Flyfaster" className="h-10 mx-auto" />
+  <Image width={140} height={40} src="/logistics.svg" alt="Logistics" className="h-10 mx-auto" />
+  <Image width={140} height={40} src="/freightex.svg" alt="Freightex" className="h-10 mx-auto" />
+  <Image width={140} height={40} src="/travelgood.svg" alt="Travelgood" className="h-10 mx-auto" />
+  <Image width={140} height={40} src="/trucking.svg" alt="Trucking" className="h-10 mx-auto" />
+  <Image width={140} height={40} src="/flyfaster.svg" alt="Flyfaster" className="h-10 mx-auto" />
 </div>
     </section>
   );

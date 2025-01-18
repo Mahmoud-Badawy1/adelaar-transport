@@ -35,16 +35,16 @@ function AboutAuthor() {
         </div>
 
         <div>
-          <Image width={56} height={48} src="/images/2.svg" alt="icon" className="h-12 w-14" />
+          <Image width={56} height={48} src="/2.svg" alt="icon" className="h-12 w-14" />
         </div>
         <div>
-          <Image width={56} height={48} src="/images/3.svg" alt="icon" className="h-12 w-14" />
+          <Image width={56} height={48} src="/3.svg" alt="icon" className="h-12 w-14" />
         </div>
         <div>
-          <Image width={56} height={48} src="/images/4.svg" alt="icon" className="h-12 w-14" />
+          <Image width={56} height={48} src="/4.svg" alt="icon" className="h-12 w-14" />
         </div>
         <div>
-          <Image width={56} height={48} src="/images/5.svg" alt="icon" className="h-12 w-14" />
+          <Image width={56} height={48} src="/5.svg" alt="icon" className="h-12 w-14" />
         </div>
       </div>
     </div>

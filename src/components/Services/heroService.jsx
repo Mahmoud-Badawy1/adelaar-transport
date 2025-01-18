@@ -12,7 +12,7 @@ const HeroService = () => {
         <h1 className="sm:text-6xl text-3xl font-bold leading-tight mb-6">
         Our Services
         </h1>
-        <button className="bg-orange px-6 py-3 rounded-md hover:bg-orange-600 transition flex items-center space-x-3 text-white text-lg font-medium">
+        <button  onClick={handleNavigation} className="bg-orange px-6 py-3 rounded-md hover:bg-orange-600 transition flex items-center space-x-3 text-white text-lg font-medium">
   <span>Contact Adelaar Transport</span>
   <div className="flex items-center justify-center bg-white w-8 h-8 rounded-md">
     <svg
@@ -26,7 +26,6 @@ const HeroService = () => {
       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
     </svg>
   </div>
-  onClick={handleNavigation}
 </button>
       </div>
     </section>

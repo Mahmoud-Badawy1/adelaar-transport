@@ -9,7 +9,7 @@ function TeamCard({ id, selectedCard, handleCardClick }) {
     return (
         <div
             className={`bg-gray1 h-80 w-full sm:w-60 md:w-72 flex  hover:scale-110  justify-center items-end m-2 rounded-md bg-cover bg-center bg-no-repeat relative transition-all duration-300 ease-in-out`}
-            style={{ backgroundImage: `url('/images/person.jpg')` }}
+            style={{ backgroundImage: `url('/person.jpg')` }}
             onClick={() => handleCardClick(id)}
         >
             <div className={`w-52 h-auto bg-white rounded-md text-center pt-3 mb-3 hover:scale-105 hover:bg-green4 hover:h-28 hover:text-white `}>
@@ -17,7 +17,7 @@ function TeamCard({ id, selectedCard, handleCardClick }) {
                 <div className="text-sm text-gray2">Transportatiespecialist</div>
                 <Link href="/team">
   <div className="relative cursor-pointer" style={{ marginTop: "-6rem", marginLeft: "-1rem" }}>
-    <Image width={100} height={100} src="/images/icon plus.svg" alt="icon plus.svg" />
+    <Image width={100} height={100} src="/icon plus.svg" alt="icon plus.svg" />
   </div>
 </Link>
                 <div className="flex  space-x-4 justify-center m-2  " >

@@ -2,9 +2,9 @@ import Image from "next/image";
 const cardData = [
     {
       image:(
-        "/images/Maritiem.png"),
+        "/Maritiem.png"),
       icon: (
-       "/images/maritiem.svg"
+       "/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -15,10 +15,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        "/images/train.jpg"
+        "/train.jpg"
       ),
       icon: (
-       "/images/Weg.svg"
+       "/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -28,10 +28,10 @@ const cardData = [
     },
     {
       image:(
-        "/images/plane.jpg"
+        "/plane.jpg"
       ),
       icon: (
-      "/images/plane1.svg"
+      "/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -42,9 +42,9 @@ const cardData = [
     
     {
       image:(
-        "/images/Maritiem.png"),
+        "/Maritiem.png"),
       icon: (
-       "/images/maritiem.svg"
+       "/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -55,10 +55,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        "/images/train.jpg"
+        "/train.jpg"
       ),
       icon: (
-       "/images/Weg.svg"
+       "/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -68,10 +68,10 @@ const cardData = [
     },
     {
       image:(
-        "/images/plane.jpg"
+        "/plane.jpg"
       ),
       icon: (
-      "/images/plane1.svg"
+      "/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -82,9 +82,9 @@ const cardData = [
     
     {
       image:(
-        "/images/Maritiem.png"),
+        "/Maritiem.png"),
       icon: (
-       "/images/maritiem.svg"
+       "/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -95,10 +95,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        "/images/train.jpg"
+        "/train.jpg"
       ),
       icon: (
-       "/images/Weg.svg"
+       "/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -108,10 +108,10 @@ const cardData = [
     },
     {
       image:(
-        "/images/plane.jpg"
+        "/plane.jpg"
       ),
       icon: (
-      "/images/plane1.svg"
+      "/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -122,9 +122,9 @@ const cardData = [
     
     {
       image:(
-        "/images/Maritiem.png"),
+        "/Maritiem.png"),
       icon: (
-       "/images/maritiem.svg"
+       "/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -135,10 +135,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        "/images/train.jpg"
+        "/train.jpg"
       ),
       icon: (
-       "/images/Weg.svg"
+       "/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -148,10 +148,10 @@ const cardData = [
     },
     {
       image:(
-        "/images/plane.jpg"
+        "/plane.jpg"
       ),
       icon: (
-      "/images/plane1.svg"
+      "/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -162,9 +162,9 @@ const cardData = [
     
     {
       image:(
-        "/images/Maritiem.png"),
+        "/Maritiem.png"),
       icon: (
-       "/images/maritiem.svg"
+       "/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -175,10 +175,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        "/images/train.jpg"
+        "/train.jpg"
       ),
       icon: (
-       "/images/Weg.svg"
+       "/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -188,10 +188,10 @@ const cardData = [
     },
     {
       image:(
-        "/images/plane.jpg"
+        "/plane.jpg"
       ),
       icon: (
-      "/images/plane1.svg"
+      "/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -202,9 +202,9 @@ const cardData = [
     
     {
       image:(
-        "/images/Maritiem.png"),
+        "/Maritiem.png"),
       icon: (
-       "/images/maritiem.svg"
+       "/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -215,10 +215,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        "/images/train.jpg"
+        "/train.jpg"
       ),
       icon: (
-       "/images/Weg.svg"
+       "/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -228,10 +228,10 @@ const cardData = [
     },
     {
       image:(
-        "/images/plane.jpg"
+        "/plane.jpg"
       ),
       icon: (
-      "/images/plane1.svg"
+      "/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -242,9 +242,9 @@ const cardData = [
     
     {
       image:(
-        "/images/Maritiem.png"),
+        "/Maritiem.png"),
       icon: (
-       "/images/maritiem.svg"
+       "/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -255,10 +255,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        "/images/train.jpg"
+        "/train.jpg"
       ),
       icon: (
-       "/images/Weg.svg"
+       "/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -268,10 +268,10 @@ const cardData = [
     },
     {
       image:(
-        "/images/plane.jpg"
+        "/plane.jpg"
       ),
       icon: (
-      "/images/plane1.svg"
+      "/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -282,9 +282,9 @@ const cardData = [
     
     {
       image:(
-        "/images/Maritiem.png"),
+        "/Maritiem.png"),
       icon: (
-       "/images/maritiem.svg"
+       "/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -295,10 +295,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        "/images/train.jpg"
+        "/train.jpg"
       ),
       icon: (
-       "/images/Weg.svg"
+       "/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -308,10 +308,10 @@ const cardData = [
     },
     {
       image:(
-        "/images/plane.jpg"
+        "/plane.jpg"
       ),
       icon: (
-      "/images/plane1.svg"
+      "/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:

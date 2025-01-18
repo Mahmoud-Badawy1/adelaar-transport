@@ -13,7 +13,7 @@ function CardPagination() {
     title: `Hoe het nieuwe transportsysteem nieuwe ondernemingen beïnvloedt`,
     description: `De luchtvrachtdienst van Adelaar Transport biedt kennis en kansen om te optimaliseren...`,
     tip: `DECEMBER 12, 2023`,
-    image: "/images/person.jpg",
+    image: "/person.jpg",
   }));
 
   // عدد العناصر في كل صفحة

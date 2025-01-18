@@ -7,7 +7,7 @@ function Testimonial() {
       <section
         className="relative py-96 mt-14 bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/images/Testimonial.svg')",
+          backgroundImage: "url('/Testimonial.svg')",
           backgroundSize: "fit-content",
         }}
       >

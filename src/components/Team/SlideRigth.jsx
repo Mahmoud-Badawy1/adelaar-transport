@@ -27,7 +27,7 @@ function SlideRigth() {
             'Executive, FedX',
           ].map((item, index) => (
             <div key={index} className="flex items-center">
-              <Image width={24} height={24} src="/images/true.svg" alt="Icon" />
+              <Image width={24} height={24} src="/true.svg" alt="Icon" />
               <div className="ml-1 text-green1 text-base font-medium">{item}</div>
             </div>
           ))}
@@ -51,7 +51,7 @@ function SlideRigth() {
             { title: 'Post Graduation', description: 'Lorem ipsum dolor sit amet consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et.' },
           ].map((edu, index) => (
             <div key={index} className="flex items-start">
-              <Image width={32} height={32} src={`/images/number (${index}).svg`} alt="Number Icon" />
+              <Image width={32} height={32} src={`/number (${index}).svg`} alt="Number Icon" />
               <div className="ml-6">
                 <div className="text-green1 text-lg font-medium">{edu.title}</div>
                 <div className="text-text1 text-sm">{edu.description}</div>
@@ -104,7 +104,7 @@ function SlideRigth() {
             'Best Employee 2021',
           ].map((award, index) => (
             <div key={index} className="flex items-center">
-              <Image width={17} height={17} src="/images/true.svg" alt="Award Icon" />
+              <Image width={17} height={17} src="/true.svg" alt="Award Icon" />
               <div className="ml-1 text-green1 text-base font-medium">{award}</div>
             </div>
           ))}

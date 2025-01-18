@@ -4,28 +4,28 @@ const StatsSection = () => {
   const stats = [
     {
       icon: (
-        "/images/plane2.svg"
+        "/plane2.svg"
       ),
       number: "50k",
       text: "Succesvol Vervoer",
     },
     {
       icon: (
-        "/images/truckoutline.svg"
+        "/truckoutline.svg"
       ),
       number: "256",
       text: "Wegvrachtvervoer",
     },
     {
       icon: (
-        "/images/trade.svg"
+        "/trade.svg"
       ),
       number: "25+",
       text: "Landen van Operatie",
     },
     {
       icon: (
-        "/images/train1.svg"
+        "/train1.svg"
       ),
       number: "125",
       text: "Treinvrachtvervoer",

@@ -31,7 +31,7 @@ function AboutSection() {
             width: "90%",
             maxWidth: "85rem",
             marginTop: "-10rem",
-            backgroundImage: `url('/images/about.jpg')`,
+            backgroundImage: `url('/about.jpg')`,
           }}
         ></div>
       </section>

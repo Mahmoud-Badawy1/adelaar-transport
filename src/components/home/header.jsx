@@ -23,7 +23,7 @@ const Header = () => {
           <Link href="/">
           <div>
             <Image 
-              src="/images/logo.png"
+              src="/logo.png"
               alt="Adelaar Transport Logo"
               width={32}
               height={32}
