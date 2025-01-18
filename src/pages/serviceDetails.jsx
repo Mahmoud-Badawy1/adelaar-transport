@@ -4,6 +4,7 @@ import Header from '../components/home/header';
 import HeroService from '../components/Services/heroService';
 import OneService from '../components/Services/oneService';
 import Footer from '../components/footer';
+import Image from 'next/image';
 const ServiceDetails = () => {
   return (
     <section>
@@ -34,7 +35,7 @@ const ServiceDetails = () => {
       className="flex items-center justify-between p-2 hover:bg-orange rounded-lg cursor-pointer bg-white shadow-custom py-3 px-4"  
     >
       <div className="flex items-center gap-3">
-        <img src={imgSrc} alt={service} className="w-6 h-6" />
+        <Image width={24} height={24} src={imgSrc} alt={service} className="w-6 h-6" />
         <span>{service}</span>
       </div>
       <svg
@@ -63,7 +64,9 @@ const ServiceDetails = () => {
         <div className="absolute inset-0 bg-gray-300"></div>
         
         {/* Curved overlay */}
-        <img
+        <Image
+        width={420}
+        height={637}
     src="/images/Union.svg"
     alt="Decorative curve"
     className="absolute bottom-0 left-0 w-full"

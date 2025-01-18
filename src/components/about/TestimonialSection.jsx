@@ -17,7 +17,7 @@ const TestimonialSection = () => {
     const cardData = [
         {
             icon: (
-                    <img src="/images/person.jpg" alt="" />
+                    "/images/person.jpg"
             ),
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
@@ -26,7 +26,7 @@ const TestimonialSection = () => {
         },
         {
             icon: (
-                <img src="/images/person.jpg" alt="" />
+                "/images/person.jpg"
             ),
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
@@ -35,7 +35,7 @@ const TestimonialSection = () => {
         },
         {
             icon: (
-                <img src="/images/person.jpg" alt="" />
+                "/images/person.jpg"
             ),
             name: "William Gibson",
             supname: "CEO, Traders Corp.",
@@ -44,7 +44,7 @@ const TestimonialSection = () => {
         },
         {
             icon: (
-                <img src="/images/person.jpg" alt="" />
+               "/images/person.jpg"
             ),
             name: "William Gibson",
             supname: "CEO, Traders Corp.",

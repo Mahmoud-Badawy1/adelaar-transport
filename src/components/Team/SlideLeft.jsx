@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 function SlideLeft() {
   return (
     <>
@@ -51,16 +51,16 @@ function SlideLeft() {
           </div>
           {/* باقي الأيقونات */}
           <div>
-            <img src="/images/2.svg" alt="2.svg" className="h-12 w-12" />
+            <Image width={48} height={48} src="/images/2.svg" alt="2.svg" className="h-12 w-12" />
           </div>
           <div>
-            <img src="/images/3.svg" alt="3.svg" className="h-12 w-12"  />
+            <Image width={48} height={48} src="/images/3.svg" alt="3.svg" className="h-12 w-12"  />
           </div>
           <div>
-            <img src="/images/4.svg" alt="4.svg" className="h-12 w-12"  />
+            <Image width={48} height={48} src="/images/4.svg" alt="4.svg" className="h-12 w-12"  />
           </div>
           <div>
-            <img src="/images/5.svg" alt="5.svg" className="h-12 w-12"  />
+            <Image width={48} height={48} src="/images/5.svg" alt="5.svg" className="h-12 w-12"  />
           </div>
         </div>
       </div>

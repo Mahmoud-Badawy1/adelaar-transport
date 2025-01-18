@@ -1,10 +1,10 @@
+import Image from "next/image";
 const cardData = [
     {
       image:(
-        <img src="/images/Maritiem.png" alt="Service icon" />
-      ),
+        "/images/Maritiem.png"),
       icon: (
-       <img src="/images/maritiem.svg" alt="Service icon" />
+       "/images/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -15,10 +15,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        <img src="/images/train.jpg" alt="Service icon" />
+        "/images/train.jpg"
       ),
       icon: (
-       <img src="/images/Weg.svg" alt="Service icon" />
+       "/images/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -28,10 +28,10 @@ const cardData = [
     },
     {
       image:(
-        <img src="/images/plane.jpg" alt="Service icon" />
+        "/images/plane.jpg"
       ),
       icon: (
-       <img src="/images/plane1.svg" alt="Service icon" />
+      "/images/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -39,12 +39,12 @@ const cardData = [
       buttonText: "Lees meer",
       href: "/services/details" 
     },
+    
     {
       image:(
-        <img src="/images/Maritiem.png" alt="Service icon" />
-      ),
+        "/images/Maritiem.png"),
       icon: (
-       <img src="/images/maritiem.svg" alt="Service icon" />
+       "/images/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -55,10 +55,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        <img src="/images/train.jpg" alt="Service icon" />
+        "/images/train.jpg"
       ),
       icon: (
-       <img src="/images/Weg.svg" alt="Service icon" />
+       "/images/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -68,10 +68,10 @@ const cardData = [
     },
     {
       image:(
-        <img src="/images/plane.jpg" alt="Service icon" />
+        "/images/plane.jpg"
       ),
       icon: (
-       <img src="/images/plane1.svg" alt="Service icon" />
+      "/images/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -79,12 +79,12 @@ const cardData = [
       buttonText: "Lees meer",
       href: "/services/details" 
     },
+    
     {
       image:(
-        <img src="/images/Maritiem.png" alt="Service icon" />
-      ),
+        "/images/Maritiem.png"),
       icon: (
-       <img src="/images/maritiem.svg" alt="Service icon" />
+       "/images/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -95,10 +95,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        <img src="/images/train.jpg" alt="Service icon" />
+        "/images/train.jpg"
       ),
       icon: (
-       <img src="/images/Weg.svg" alt="Service icon" />
+       "/images/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -108,10 +108,10 @@ const cardData = [
     },
     {
       image:(
-        <img src="/images/plane.jpg" alt="Service icon" />
+        "/images/plane.jpg"
       ),
       icon: (
-       <img src="/images/plane1.svg" alt="Service icon" />
+      "/images/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -119,12 +119,12 @@ const cardData = [
       buttonText: "Lees meer",
       href: "/services/details" 
     },
+    
     {
       image:(
-        <img src="/images/Maritiem.png" alt="Service icon" />
-      ),
+        "/images/Maritiem.png"),
       icon: (
-       <img src="/images/maritiem.svg" alt="Service icon" />
+       "/images/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -135,10 +135,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        <img src="/images/train.jpg" alt="Service icon" />
+        "/images/train.jpg"
       ),
       icon: (
-       <img src="/images/Weg.svg" alt="Service icon" />
+       "/images/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -148,10 +148,10 @@ const cardData = [
     },
     {
       image:(
-        <img src="/images/plane.jpg" alt="Service icon" />
+        "/images/plane.jpg"
       ),
       icon: (
-       <img src="/images/plane1.svg" alt="Service icon" />
+      "/images/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -159,12 +159,12 @@ const cardData = [
       buttonText: "Lees meer",
       href: "/services/details" 
     },
+    
     {
       image:(
-        <img src="/images/Maritiem.png" alt="Service icon" />
-      ),
+        "/images/Maritiem.png"),
       icon: (
-       <img src="/images/maritiem.svg" alt="Service icon" />
+       "/images/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -175,10 +175,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        <img src="/images/train.jpg" alt="Service icon" />
+        "/images/train.jpg"
       ),
       icon: (
-       <img src="/images/Weg.svg" alt="Service icon" />
+       "/images/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -188,10 +188,10 @@ const cardData = [
     },
     {
       image:(
-        <img src="/images/plane.jpg" alt="Service icon" />
+        "/images/plane.jpg"
       ),
       icon: (
-       <img src="/images/plane1.svg" alt="Service icon" />
+      "/images/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -199,12 +199,12 @@ const cardData = [
       buttonText: "Lees meer",
       href: "/services/details" 
     },
+    
     {
       image:(
-        <img src="/images/Maritiem.png" alt="Service icon" />
-      ),
+        "/images/Maritiem.png"),
       icon: (
-       <img src="/images/maritiem.svg" alt="Service icon" />
+       "/images/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -215,10 +215,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        <img src="/images/train.jpg" alt="Service icon" />
+        "/images/train.jpg"
       ),
       icon: (
-       <img src="/images/Weg.svg" alt="Service icon" />
+       "/images/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -228,10 +228,10 @@ const cardData = [
     },
     {
       image:(
-        <img src="/images/plane.jpg" alt="Service icon" />
+        "/images/plane.jpg"
       ),
       icon: (
-       <img src="/images/plane1.svg" alt="Service icon" />
+      "/images/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -239,12 +239,12 @@ const cardData = [
       buttonText: "Lees meer",
       href: "/services/details" 
     },
+    
     {
       image:(
-        <img src="/images/Maritiem.png" alt="Service icon" />
-      ),
+        "/images/Maritiem.png"),
       icon: (
-       <img src="/images/maritiem.svg" alt="Service icon" />
+       "/images/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -255,10 +255,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        <img src="/images/train.jpg" alt="Service icon" />
+        "/images/train.jpg"
       ),
       icon: (
-       <img src="/images/Weg.svg" alt="Service icon" />
+       "/images/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -268,10 +268,10 @@ const cardData = [
     },
     {
       image:(
-        <img src="/images/plane.jpg" alt="Service icon" />
+        "/images/plane.jpg"
       ),
       icon: (
-       <img src="/images/plane1.svg" alt="Service icon" />
+      "/images/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:
@@ -279,12 +279,12 @@ const cardData = [
       buttonText: "Lees meer",
       href: "/services/details" 
     },
+    
     {
       image:(
-        <img src="/images/Maritiem.png" alt="Service icon" />
-      ),
+        "/images/Maritiem.png"),
       icon: (
-       <img src="/images/maritiem.svg" alt="Service icon" />
+       "/images/maritiem.svg"
       ),
       title: "Maritiem Transport",
       description:
@@ -295,10 +295,10 @@ const cardData = [
     // Add more cards here...
     {
       image:(
-        <img src="/images/train.jpg" alt="Service icon" />
+        "/images/train.jpg"
       ),
       icon: (
-       <img src="/images/Weg.svg" alt="Service icon" />
+       "/images/Weg.svg"
       ),
       title: "Wegvrachtvervoer",
       description:
@@ -308,10 +308,10 @@ const cardData = [
     },
     {
       image:(
-        <img src="/images/plane.jpg" alt="Service icon" />
+        "/images/plane.jpg"
       ),
       icon: (
-       <img src="/images/plane1.svg" alt="Service icon" />
+      "/images/plane1.svg"
       ),
       title: "Intermodal Shipping",
       description:

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 function AboutAuthor() {
   return (
     <div className="bg-white border rounded-lg mt-5 mb-10 max-w-md sm:max-w-lg lg:max-w-2xl mx-auto">
@@ -35,16 +35,16 @@ function AboutAuthor() {
         </div>
 
         <div>
-          <img src="/images/2.svg" alt="icon" className="h-12 w-14" />
+          <Image width={56} height={48} src="/images/2.svg" alt="icon" className="h-12 w-14" />
         </div>
         <div>
-          <img src="/images/3.svg" alt="icon" className="h-12 w-14" />
+          <Image width={56} height={48} src="/images/3.svg" alt="icon" className="h-12 w-14" />
         </div>
         <div>
-          <img src="/images/4.svg" alt="icon" className="h-12 w-14" />
+          <Image width={56} height={48} src="/images/4.svg" alt="icon" className="h-12 w-14" />
         </div>
         <div>
-          <img src="/images/5.svg" alt="icon" className="h-12 w-14" />
+          <Image width={56} height={48} src="/images/5.svg" alt="icon" className="h-12 w-14" />
         </div>
       </div>
     </div>

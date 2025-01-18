@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import React, { useState } from 'react';
-
+import Image from 'next/image';
 function TeamCard({ id, selectedCard, handleCardClick }) {
     const isSelected = selectedCard === id;
 
@@ -17,7 +17,7 @@ function TeamCard({ id, selectedCard, handleCardClick }) {
                 <div className="text-sm text-gray2">Transportatiespecialist</div>
                 <Link href="/team">
   <div className="relative cursor-pointer" style={{ marginTop: "-6rem", marginLeft: "-1rem" }}>
-    <img src="/images/icon plus.svg" alt="icon plus.svg" />
+    <Image width={100} height={100} src="/images/icon plus.svg" alt="icon plus.svg" />
   </div>
 </Link>
                 <div className="flex  space-x-4 justify-center m-2  " >

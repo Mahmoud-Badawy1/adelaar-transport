@@ -8,7 +8,7 @@ function TestimonialCard({ icon, name, description, supname }) {
                 style={{
                     width: "112px",
                     height: "112px",
-                    backgroundImage: `url(${icon?.props.src})`, // Use the `icon` prop as the URL
+                    backgroundImage: `url(${icon})`, // Use the `icon` prop as the URL
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}

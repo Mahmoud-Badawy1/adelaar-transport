@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const About = () => {
   return (
     <section
@@ -61,7 +61,9 @@ const About = () => {
               "Vlakbedvervoer"
             ].map((item, index) => (
               <div key={index} className="text-green3 flex items-center space-x-2">
-                <img
+                <Image
+                  width={16}
+                  height={16}
                   src="/images/iconarrow.svg"
                   alt="Arrow Icon"
                   className="w-3 lg:w-4 h-3 lg:h-4"
@@ -116,11 +118,11 @@ const About = () => {
 
        {/* Logos Section */}
        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-28 px-4 md:px-10">
-  <img src="/images/logistics.svg" alt="Logistics" className="h-10 mx-auto" />
-  <img src="/images/freightex.svg" alt="Freightex" className="h-10 mx-auto" />
-  <img src="/images/travelgood.svg" alt="Travelgood" className="h-10 mx-auto" />
-  <img src="/images/trucking.svg" alt="Trucking" className="h-10 mx-auto" />
-  <img src="/images/flyfaster.svg" alt="Flyfaster" className="h-10 mx-auto" />
+  <Image width={140} height={40} src="/images/logistics.svg" alt="Logistics" className="h-10 mx-auto" />
+  <Image width={140} height={40} src="/images/freightex.svg" alt="Freightex" className="h-10 mx-auto" />
+  <Image width={140} height={40} src="/images/travelgood.svg" alt="Travelgood" className="h-10 mx-auto" />
+  <Image width={140} height={40} src="/images/trucking.svg" alt="Trucking" className="h-10 mx-auto" />
+  <Image width={140} height={40} src="/images/flyfaster.svg" alt="Flyfaster" className="h-10 mx-auto" />
 </div>
     </section>
   );

@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
 import Link from 'next/link';
+import Image from "next/image";
 function CardPagination() {
   // البيانات الوهمية
   const data = Array.from({ length: 50 }, (_, index) => ({
@@ -44,7 +45,7 @@ function CardPagination() {
             <div className="bg-gray-200 w-full h-52 rounded-t-md bg-cover bg-center" style={{backgroundImage: `url('images/aboutImg.jpg')`}}></div>
             <div className="flex items-start justify-between mt-2 px-4">
               <div className="flex items-start">
-                <img src={item.image} alt="" className="w-16 h-16 rounded-full" />
+                <Image width={64} height={64} src={item.image} alt="" className="w-16 h-16 rounded-full" />
                 <div className="ml-2">
                   <div className="font-bold">{item.name}</div>
                   <div className="text-gray-500">{item.supname}</div>

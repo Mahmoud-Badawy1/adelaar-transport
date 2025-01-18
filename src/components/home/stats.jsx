@@ -1,31 +1,31 @@
 import React from "react";
-
+import Image from "next/image";
 const StatsSection = () => {
   const stats = [
     {
       icon: (
-        <img src="/images/plane2.svg" alt="" />
+        "/images/plane2.svg"
       ),
       number: "50k",
       text: "Succesvol Vervoer",
     },
     {
       icon: (
-        <img src="/images/truckoutline.svg" alt="" />
+        "/images/truckoutline.svg"
       ),
       number: "256",
       text: "Wegvrachtvervoer",
     },
     {
       icon: (
-        <img src="/images/trade.svg" alt="" />
+        "/images/trade.svg"
       ),
       number: "25+",
       text: "Landen van Operatie",
     },
     {
       icon: (
-        <img src="/images/train1.svg" alt="" />
+        "/images/train1.svg"
       ),
       number: "125",
       text: "Treinvrachtvervoer",
@@ -40,7 +40,8 @@ const StatsSection = () => {
             key={index}
             className="flex items-center bg-darkblue2 text-white p-6 rounded-xl border-2 border-dashed border-green4"
           >
-            <div className="flex-shrink-0">{stat.icon}</div>
+            <div className="flex-shrink-0">
+              <Image width={60} height={60} src={stat.icon} /></div>
             <div className="ml-4">
               <h3 className="text-3xl font-bold">{stat.number}</h3>
               <p className="text-lg">{stat.text}</p>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function DescripitionBlog() {
     return (
         <>
@@ -27,7 +27,7 @@ function DescripitionBlog() {
                             'We care about each other and the world around us',
                         ].map((item, index) => (
                             <div key={index} className="flex items-center">
-                                <img src="/images/true.svg" alt="Icon" />
+                                <Image width={17} height={17} src="/images/true.svg" alt="Icon" />
                                 <div className="ml-1 text-green1 text-base font-light">{item}</div>
                             </div>
                         ))}
@@ -46,7 +46,7 @@ function DescripitionBlog() {
 
             <div className='bg-gray1 w-full h-96 flex justify-center items-center'>
                 <div>
-                    <img src="/images/play Button.svg" alt="" />
+                    <Image width={81} height={81} src="/images/play Button.svg" alt="" />
                 </div>
             </div>
 

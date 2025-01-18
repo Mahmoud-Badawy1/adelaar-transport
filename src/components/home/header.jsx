@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const Header = () => {
   const pathname = usePathname();
@@ -20,11 +21,14 @@ const Header = () => {
       {/* Logo Section */}
         <div className="bg-green3 w-fit h-[111px] flex items-center px-4">
           <Link href="/">
-            <img
+          <div>
+            <Image 
               src="/images/logo.png"
               alt="Adelaar Transport Logo"
+              width={32}
+              height={32}
               className="w-32 h-auto"
-            />
+            /></div>
           </Link>
         </div>
         

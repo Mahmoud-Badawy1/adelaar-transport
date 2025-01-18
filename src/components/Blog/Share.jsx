@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function Share() {
   return (
     <>
@@ -18,7 +18,9 @@ function Share() {
       {/* Section: Author Info */}
       <div className="flex flex-col lg:flex-row justify-center items-start mt-10 mb-10 gap-6 px-4">
         <div className="w-full h-full lg:w-auto flex justify-center rounded-full overflow-hidden">
-          <img
+          <Image 
+          width={144}
+          height={144}
             src="/images/person.jpg"
             alt="image"
             className="w-36 object-cover rounded-full shadow-lg"
@@ -30,10 +32,10 @@ function Share() {
           Door elke dag vanuit het perspectief van onze klanten te denken, anticiperen we op wat ze willen, bieden we aan wat ze nodig hebben en bouwen we duurzame relaties.
           </div>
           <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-            <img src="/images/icon.svg" alt="icon" className="w-8 h-8" />
-            <img src="/images/icon (1).svg" alt="icon" className="w-8 h-8" />
-            <img src="/images/icon (2).svg" alt="icon" className="w-8 h-8" />
-            <img src="/images/icon (3).svg" alt="icon" className="w-8 h-8" />
+            <Image width={32} height={32} src="/images/icon.svg" alt="icon" className="w-8 h-8" />
+            <Image width={32} height={32} src="/images/icon (1).svg" alt="icon" className="w-8 h-8" />
+            <Image width={32} height={32} src="/images/icon (2).svg" alt="icon" className="w-8 h-8" />
+            <Image width={32} height={32} src="/images/icon (3).svg" alt="icon" className="w-8 h-8" />
           </div>
         </div>
       </div>
