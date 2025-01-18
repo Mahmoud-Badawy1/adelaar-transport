@@ -41,7 +41,7 @@ const StatsSection = () => {
             className="flex items-center bg-darkblue2 text-white p-6 rounded-xl border-2 border-dashed border-green4"
           >
             <div className="flex-shrink-0">
-              <Image width={60} height={60} src={stat.icon} /></div>
+              <Image width={60} height={60} src={stat.icon} alt="" /></div>
             <div className="ml-4">
               <h3 className="text-3xl font-bold">{stat.number}</h3>
               <p className="text-lg">{stat.text}</p>

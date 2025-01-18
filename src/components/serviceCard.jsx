@@ -16,7 +16,7 @@ const Card = ({ icon, title, description, buttonText, href, image }) => {
         {/* Circular Icon */}
         <div className="absolute bottom-0 right-2/3 transform -translate-x-1/2 translate-y-1/2 bg-white border-4 border-lightOrange w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-md transition-transform duration-300 hover:scale-110">
           <div className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 justify-center items-center flex">
-          <div> <Image width={24} height={24} src={icon} /></div>
+          <div> <Image width={24} height={24} src={icon} alt="service"/></div>
           </div>
         </div>
       </div>
