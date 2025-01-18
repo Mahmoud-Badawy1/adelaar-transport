@@ -4,7 +4,7 @@ function DescripitionBlog() {
     return (
         <>
             <div className="font-light text-text1 mt-2">
-                <div>Onze zakelijke adviesprogramma's helpen de prestaties van uw bedrijf op te splitsen in klant- en productgroepen, zodat u precies weet welke klanten of productgroepen goed presteren en welke niet. Dit stelt u in staat de nodige veranderingen door te voeren om de beste resultaten uit uw bedrijf te halen.</div>
+                <div>Onze zakelijke adviesprogramma&apos;s helpen de prestaties van uw bedrijf op te splitsen in klant- en productgroepen, zodat u precies weet welke klanten of productgroepen goed presteren en welke niet. Dit stelt u in staat de nodige veranderingen door te voeren om de beste resultaten uit uw bedrijf te halen.</div>
                 <div className="my-3">
                 In de afgelopen 35 jaar hebben we een sterke impact gehad en er ligt nog een lange weg voor ons.
                 </div>
