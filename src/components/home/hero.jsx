@@ -1,10 +1,9 @@
 "use client"; 
 import React from 'react';
-import router from 'next/router';
 
 const Hero = () => {
   const handleNavigation = () => {
-    router.push('/contact');
+    window.location.href = '/contact';
   };
   return (
     <section className="bg-green3 text-white relative h-screen flex items-center">

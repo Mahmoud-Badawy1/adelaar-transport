@@ -1,10 +1,9 @@
 "use client"; 
 import React from 'react';
-import router from 'next/router';
+
 const HeroService = () => {
   const handleNavigation = () => {
-    router.push('/contact');
-  };
+    window.location.href = '/contact';  };
   return (
     <section className="bg-green3 text-white relative h-96 flex items-center">
       {/* Hero Content */}
@@ -12,7 +11,7 @@ const HeroService = () => {
         <h1 className="sm:text-6xl text-3xl font-bold leading-tight mb-6">
         Our Services
         </h1>
-        <button  onClick={handleNavigation} className="bg-orange px-6 py-3 rounded-md hover:bg-orange-600 transition flex items-center space-x-3 text-white text-lg font-medium">
+        <button onClick={handleNavigation} className="bg-orange px-6 py-3 rounded-md hover:bg-orange-600 transition flex items-center space-x-3 text-white text-lg font-medium">
   <span>Contact Adelaar Transport</span>
   <div className="flex items-center justify-center bg-white w-8 h-8 rounded-md">
     <svg

@@ -19,17 +19,14 @@ const Header = () => {
   return (
     <header className="bg-green3 text-gray-200 flex flex-wrap lg:flex-nowrap w-full items-center">
       {/* Logo Section */}
-        <div className="bg-green3 w-fit h-[111px] flex items-center px-4">
-          <Link href="/">
-          <div>
-            <Image 
+        <div className="bg-green3 sm:w-40 sm:h-[111px] w-28 h-24 flex items-center px-4 bg-cover bg-center" style={{backgroundImage: "url('/logo.png')"}}>
+            {/* <Image 
               src="/logo.png"
               alt="Adelaar Transport Logo"
-              width={32}
-              height={32}
+              width={30}
+              height={20}
               className="w-32 h-auto"
-            /></div>
-          </Link>
+            /> */}
         </div>
         
       <div className="smallflex flex-1 ">  
