@@ -14,7 +14,7 @@ const FaqItem = ({ question, answer, isActive, onClick }) => {
           }`}
         aria-expanded={isActive}
       >
-        <span className="font-medium text-sm md:text-base lg:text-lg pr-2">{question}</span>
+        <span className="font-medium text-sm md:text-base lg:text-sm pr-2">{question}</span>
         <span 
           className={`flex-shrink-0 transform transition-transform duration-300 ${
             isActive ? 'rotate-180' : ''
