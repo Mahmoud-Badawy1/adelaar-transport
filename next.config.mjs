@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-module.exports = {
-    basePath: '/images',
+const nextConfig = {
+    reactStrictMode: true,
   };
-export default nextConfig;
+  
+  export default nextConfig;
