@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className="bg-green3 text-gray-200 flex flex-wrap lg:flex-nowrap w-full items-center">
       {/* Logo Section */}
-        <div className="bg-green3 sm:w-40 sm:h-[111px] w-28 h-24 flex items-center px-4 bg-cover bg-center" style={{backgroundImage: "url('https://adelaar-transport.netlify.app/logo.png')"}}>
+        <div className="bg-green3 sm:w-40 sm:h-[111px] w-28 h-24 flex items-center px-4 bg-cover bg-center" style={{backgroundImage: "url('/logo.png')"}}>
             {/* <Image 
               src="/logo.png"
               alt="Adelaar Transport Logo"
