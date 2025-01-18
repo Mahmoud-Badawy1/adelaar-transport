@@ -111,7 +111,7 @@ const WhyChooseUs = () => {
                 </li>
               ))}
             </ul>
-            <div className="w-full h-48 lg:w-48 lg:h-48 bg-gray-200 rounded-xl flex-shrink-0" />
+            <div className="w-full h-48 lg:w-48 lg:h-48 bg-gray-200 rounded-xl flex-shrink-0 bg-cover" style={{ backgroundImage: "url('/images/emp.jpg')" }} />
           </div>
 
           {/* Triangle Decoration */}
@@ -125,7 +125,7 @@ const WhyChooseUs = () => {
       </div>
 
       {/* Gray Background */}
-      <div className="absolute top-0 right-0 w-full lg:w-[70%] h-full lg:h-[93.8%] bg-gray-200 -z-10" />
+      <div className="absolute top-0 right-0 w-full lg:w-[70%] h-full lg:h-[93.8%] bg-gray-200 -z-10 bg-cover" style={{ backgroundImage: "url('/images/cont.jpg')" }}/>
     </section>
   );
 };

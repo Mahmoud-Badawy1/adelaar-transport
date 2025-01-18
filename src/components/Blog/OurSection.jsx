@@ -11,7 +11,8 @@ function CardPagination() {
     supname: `Vervoerder`,
     title: `Hoe het nieuwe transportsysteem nieuwe ondernemingen beïnvloedt`,
     description: `De luchtvrachtdienst van Adelaar Transport biedt kennis en kansen om te optimaliseren...`,
-    tip: `DECEMBER 12, 2023`
+    tip: `DECEMBER 12, 2023`,
+    image: "/images/person.jpg",
   }));
 
   // عدد العناصر في كل صفحة
@@ -40,10 +41,10 @@ function CardPagination() {
             key={item.id}
             className="rounded-md shadow-md bg-white"
           >
-            <div className="bg-gray-200 w-full h-52 rounded-t-md"></div>
+            <div className="bg-gray-200 w-full h-52 rounded-t-md bg-cover bg-center" style={{backgroundImage: `url('images/aboutImg.jpg')`}}></div>
             <div className="flex items-start justify-between mt-2 px-4">
               <div className="flex items-start">
-                <img src="/images/image.png" alt="" className="w-16 h-16 rounded-full" />
+                <img src={item.image} alt="" className="w-16 h-16 rounded-full" />
                 <div className="ml-2">
                   <div className="font-bold">{item.name}</div>
                   <div className="text-gray-500">{item.supname}</div>

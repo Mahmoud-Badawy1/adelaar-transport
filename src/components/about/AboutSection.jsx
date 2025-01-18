@@ -26,11 +26,12 @@ function AboutSection() {
 
       <section className="relative h-96 md:h-96 flex justify-center">
         <div
-          className="bg-gray2 relative h-96 md:h-96 flex justify-center"
+          className="bg-gray2 relative h-96 md:h-96 flex justify-center bg-cover bg-center bg-no-repeat"
           style={{
             width: "90%",
             maxWidth: "85rem",
             marginTop: "-10rem",
+            backgroundImage: `url('/images/about.jpg')`,
           }}
         ></div>
       </section>

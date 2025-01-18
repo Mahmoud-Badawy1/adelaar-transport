@@ -10,10 +10,12 @@ const About = () => {
         {/* Image Section */}
         <div className="relative flex justify-center lg:order-1 mt-8 lg:mt-0">
           {/* Large Image */}
-          <div className="w-[250px] sm:w-[300px] h-[350px] sm:h-[400px] bg-gray-200 rounded-lg shadow-lg relative border-4 border-white">
-            {/* Small Image */}
+          <div
+  className="w-[250px] sm:w-[300px] h-[350px] sm:h-[400px] bg-gray-200 rounded-lg shadow-lg relative border-4 border-white bg-cover"
+  style={{ backgroundImage: "url('/images/aboutImg.jpg')" }}
+>            {/* Small Image */}
             <div className="w-[150px] sm:w-[180px] h-[190px] sm:h-[220px] bg-gray-400 rounded-lg shadow-lg absolute 
-                          right-[0%] sm:right-[-30%] top-1/2 transform -translate-y-1/2 border-4 border-white">
+                          right-[0%] sm:right-[-30%] top-1/2 transform -translate-y-1/2 border-4 border-white bg-cover" style={{ backgroundImage: "url('/images/small.jpg')" }}>
               {/* Badge */}
               <div className="absolute -bottom-[90px] sm:-bottom-[103px] left-1/2 transform -translate-x-1/2 
                             bg-orange text-white text-center px-4 py-2 shadow-lg 

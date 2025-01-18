@@ -17,11 +17,11 @@ function Share() {
 
       {/* Section: Author Info */}
       <div className="flex flex-col lg:flex-row justify-center items-start mt-10 mb-10 gap-6 px-4">
-        <div className="w-full lg:w-auto flex justify-center">
+        <div className="w-full h-full lg:w-auto flex justify-center rounded-full overflow-hidden">
           <img
-            src="/images/image.png"
+            src="/images/person.jpg"
             alt="image"
-            className="w-40 h-40 object-cover rounded-full shadow-lg"
+            className="w-36 object-cover rounded-full shadow-lg"
           />
         </div>
         <div className="text-center lg:text-left">

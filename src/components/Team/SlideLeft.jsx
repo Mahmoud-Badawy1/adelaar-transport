@@ -4,7 +4,7 @@ function SlideLeft() {
   return (
     <>
       {/* الحاوية الأساسية */}
-      <div className="bg-gray1 h-72 w-full max-w-xs sm:h-96 sm:w-96 mb-5 rounded-lg mx-auto"></div>
+      <div className="bg-gray1 h-72 w-full max-w-xs sm:h-96 sm:w-96 mb-5 rounded-lg mx-auto bg-cover bg-center" style={{backgroundImage: `url('/images/person.jpg')`}}></div>
       
       {/* النصوص الرئيسية */}
       <div className="text-center sm:text-left">

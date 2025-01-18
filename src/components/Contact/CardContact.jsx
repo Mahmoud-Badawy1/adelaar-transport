@@ -4,7 +4,7 @@ function CardContact() {
   return (
 <div className="flex flex-wrap justify-center mt-28">
 <div className='w-64 bg-white rounded border m-5 ' >
-        <div className='bg-gray1 h-44 w-100/2'></div>
+        <div className='bg-gray1 h-44 w-100/2 bg-cover bg-center' style={{backgroundImage: `url('images/contact.jpg')`}}></div>
         <div style={{marginTop:"-2.2rem" ,marginLeft:"5rem"}}>
            <div> <img src="/images/IconCardCantact1.svg" alt="IconCardCantact1" className='w-20' /></div>
         </div>
@@ -16,7 +16,7 @@ function CardContact() {
         </div>
     </div>
     <div className='w-64  bg-white rounded border m-5 '>
-        <div className='bg-gray1 h-44 w-100/2'></div>
+        <div className='bg-gray1 h-44 w-100/2 bg-cover bg-center' style={{backgroundImage: `url('images/contact.jpg')`}}></div>
         <div style={{marginTop:"-2.2rem" ,marginLeft:"5rem"}}>
            <div> <img src="/images/IconCardCantact2.svg" alt="IconCardCantact2" className='w-20' /></div>
         </div>
@@ -27,7 +27,7 @@ function CardContact() {
         </div>
     </div>
     <div className='w-64  bg-white rounded border m-5'>
-        <div className='bg-gray1 h-44 w-100/2'></div>
+        <div className='bg-gray1 h-44 w-100/2 bg-cover bg-center' style={{backgroundImage: `url('images/contact.jpg')`}}></div>
         <div style={{marginTop:"-2.2rem" ,marginLeft:"5rem"}}>
            <div> <img src="/images/IconCardCantact3.svg" alt="IconCardCantact3" className='w-20' /></div>
         </div>

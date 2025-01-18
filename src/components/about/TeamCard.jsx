@@ -8,10 +8,11 @@ function TeamCard({ id, selectedCard, handleCardClick }) {
 
     return (
         <div
-            className={`bg-gray1 h-80 w-full sm:w-60 md:w-72 flex  hover:scale-110  justify-center items-end m-2 rounded-md `}
+            className={`bg-gray1 h-80 w-full sm:w-60 md:w-72 flex  hover:scale-110  justify-center items-end m-2 rounded-md bg-cover bg-center bg-no-repeat relative transition-all duration-300 ease-in-out`}
+            style={{ backgroundImage: `url('/images/person.jpg')` }}
             onClick={() => handleCardClick(id)}
         >
-            <div className={`w-52 h-auto bg-white rounded-md text-center pt-3 mb-3 hover:scale-105 hover:bg-green4 hover:h-28  `}>
+            <div className={`w-52 h-auto bg-white rounded-md text-center pt-3 mb-3 hover:scale-105 hover:bg-green4 hover:h-28 hover:text-white `}>
                 <div className="text-1xl font-bold">Loraine Lee</div>
                 <div className="text-sm text-gray2">Transportatiespecialist</div>
                 <Link href="/team">
