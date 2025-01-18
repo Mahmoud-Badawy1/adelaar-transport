@@ -1,6 +1,10 @@
+"use client"; 
 import React from 'react';
-
+import router from 'next/router';
 const HeroService = () => {
+  const handleNavigation = () => {
+    router.push('/contact');
+  };
   return (
     <section className="bg-green3 text-white relative h-96 flex items-center">
       {/* Hero Content */}
@@ -22,6 +26,7 @@ const HeroService = () => {
       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
     </svg>
   </div>
+  onClick={handleNavigation}
 </button>
       </div>
     </section>

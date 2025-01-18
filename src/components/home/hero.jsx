@@ -1,6 +1,11 @@
+"use client"; 
 import React from 'react';
+import router from 'next/router';
 
 const Hero = () => {
+  const handleNavigation = () => {
+    router.push('/contact');
+  };
   return (
     <section className="bg-green3 text-white relative h-screen flex items-center">
       {/* Left Decorative Element */}
@@ -40,6 +45,7 @@ const Hero = () => {
       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
     </svg>
   </div>
+  onClick={handleNavigation}
 </button>
       </div>
     </section>
