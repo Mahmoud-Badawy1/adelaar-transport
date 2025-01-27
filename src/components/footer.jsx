@@ -142,7 +142,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
               <Image width={56} height={56} src="/map.svg" alt="" className="w-7 h-7 lg:w-14 lg:h-14"/>
                 <div>
-                  <p className="text-coral-500 text-sm">Adelaar Transport HOOFDKWARTIER</p>
+                  <p className="text-coral-500 text-sm">Adelaar Transport Address</p>
                   <p className="text-white">De hazelaar 17, 6903BA Zevenaar</p>
                 </div>
               </div>
