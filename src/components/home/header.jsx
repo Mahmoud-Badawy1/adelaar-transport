@@ -66,7 +66,7 @@ const Header = () => {
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                <span>lgiscotransporting.ltd@gmail.com</span>
+                <span>info@adelaartransport.nl</span>
               </div>
               <div className="flex items-center space-x-2">
                 <svg
@@ -88,7 +88,7 @@ const Header = () => {
                 >
                   <path d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" />
                 </svg>
-                <span>17 Straat 16th Ave SE, WA 98195</span>
+                <span>De hazelaar 17, 6903BA Zevenaar</span>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ const Header = () => {
                   </div>
                 </div>
               <span className="text-gray-200">Bel ons op elk moment:</span>
-              <span className="text-gray-200 font-bold">+011 775 643 21</span>
+              <span className="text-gray-200 font-bold">+31628964262</span>
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@ const Header = () => {
         </nav>
         <div className="flex flex-col space-y-2 mt-4">
           <span className="text-gray-200">Bel ons op elk moment:</span>
-          <span className="text-gray-200 font-bold">+011 775 643 21</span>
+          <span className="text-gray-200 font-bold">+31628964262</span>
         </div>
       </div>
     </header>

@@ -99,7 +99,7 @@ const ServiceDetails = () => {
           </div>
           <div>
             <p className="text-orange text-sm">Hulp nodig? Bel ons nu</p>
-            <p className="text-teal-600 text-xl font-bold">+234 567 811</p>
+            <p className="text-teal-600 text-xl font-bold">+31628964262</p>
           </div>
         </div>
       </div>

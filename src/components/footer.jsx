@@ -127,7 +127,7 @@ const Footer = () => {
               <Image width={56} height={56} src="/mail.svg" alt="" className="w-7 h-7 lg:w-14 lg:h-14"/>
                 <div>
                   <p className="text-coral-500 text-sm">E-MAIL ONS</p>
-                  <p className="text-white">Service@Adelaar Transportcare.Com</p>
+                  <p className="text-white">info@adelaartransport.nl</p>
                 </div>
               </div>
   
@@ -135,7 +135,7 @@ const Footer = () => {
               <Image width={56} height={56} src="/contact.svg" alt="" className="w-7 h-7 lg:w-14 lg:h-14"/>
                 <div>
                   <p className="text-coral-500 text-sm">STEUN 24/7</p>
-                  <p className="text-white">+1 23334 5678 899</p>
+                  <p className="text-white">+31630013015</p>
                 </div>
               </div>
   
@@ -143,7 +143,7 @@ const Footer = () => {
               <Image width={56} height={56} src="/map.svg" alt="" className="w-7 h-7 lg:w-14 lg:h-14"/>
                 <div>
                   <p className="text-coral-500 text-sm">Adelaar Transport HOOFDKWARTIER</p>
-                  <p className="text-white">116th Ave, WA 98058-5055,USA</p>
+                  <p className="text-white">De hazelaar 17, 6903BA Zevenaar</p>
                 </div>
               </div>
             </div>

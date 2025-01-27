@@ -109,7 +109,7 @@ const About = () => {
                 <span className="text-green3 text-base lg:text-lg font-bold">
                   Heeft u vragen?
                 </span>
-                <p className="text-gray-500 text-sm lg:text-base">+01 546 378 333</p>
+                <p className="text-gray-500 text-sm lg:text-base">+31628964262</p>
               </div>
             </div>
           </div>

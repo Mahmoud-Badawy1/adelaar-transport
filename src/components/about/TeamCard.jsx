@@ -13,8 +13,8 @@ function TeamCard({ id, selectedCard, handleCardClick }) {
             onClick={() => handleCardClick(id)}
         >
             <div className={`w-52 h-auto bg-white rounded-md text-center pt-3 mb-3 hover:scale-105 hover:bg-green4 hover:h-28 hover:text-white `}>
-                <div className="text-1xl font-bold">Loraine Lee</div>
-                <div className="text-sm text-gray2">Transportatiespecialist</div>
+                <div className="text-1xl font-bold">Mohammad Ghannam</div>
+                <div className="text-sm text-gray2">CEO</div>
                 <Link href="/team">
   <div className="relative cursor-pointer" style={{ marginTop: "-6rem", marginLeft: "-1rem" }}>
     <Image width={100} height={100} src="/icon plus.svg" alt="icon plus.svg" />

@@ -89,7 +89,7 @@ const QuoteForm = () => {
 
         <div className="text-center pt-2 sm:pt-3">
           <p className="text-lg sm:text-xl font-semibold mb-2 border-b-2 pb-3 h-auto sm:h-12">
-            Of bel ons op +098 765 4321
+            Of bel ons op +31628964262
           </p>
           <p className="text-xs sm:text-sm font-semibold">
             Het Supportcentrum is 24/7 beschikbaar

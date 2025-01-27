@@ -8,8 +8,8 @@ function SlideLeft() {
       
       {/* النصوص الرئيسية */}
       <div className="text-center sm:text-left">
-        <div className="text-2xl sm:text-3xl pb-2">Jackson Reyan Miller</div>
-        <div className="text-sm text-text1">Head Of Operation, Adelaar Transport</div>
+        <div className="text-2xl sm:text-3xl pb-2">Mohammad Ghannam</div>
+        <div className="text-sm text-text1">CEO, Adelaar Transport</div>
       </div>
       
       {/* تفاصيل الاتصال */}
@@ -17,19 +17,19 @@ function SlideLeft() {
         {/* البريد الإلكتروني */}
         <div className="border-t-2 pt-3 pb-2 w-full max-w-xs sm:w-96 mx-auto">
           <div className="text-lg sm:text-xl text-green4 pb-2">Email Address</div>
-          <div className="font-bold text-sm text-green1">jacksonmiller@email.com</div>
+          <div className="font-bold text-sm text-green1">m-ghannam@adelaartransport.nl</div>
         </div>
         
         {/* رقم الهاتف */}
         <div className="border-t-2 mt-5 pt-3 pb-2 w-full max-w-xs sm:w-96 mx-auto">
           <div className="text-lg sm:text-xl text-green4 pb-2">Phone Number</div>
-          <div className="font-bold text-sm text-green1">+123 456 78999</div>
+          <div className="font-bold text-sm text-green1">+31630013015</div>
         </div>
         
         {/* العنوان */}
         <div className="border-t-2 mt-5 pt-3 pb-2 w-full max-w-xs sm:w-96 mx-auto">
           <div className="text-lg sm:text-xl text-green4 pb-2">Address</div>
-          <div className="font-bold text-sm text-green1">231, Utah Downtown Mall, USA</div>
+          <div className="font-bold text-sm text-green1">De hazelaar 17, 6903BA Zevenaar</div>
         </div>
         
         {/* الأيقونات */}
