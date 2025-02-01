@@ -24,33 +24,33 @@ const TestimonialSection = () => {
             description:
                 "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
         },
-        {
-            icon: (
-                "/person.jpg"
-            ),
-            name: "William Gibson",
-            supname: "CEO, Traders Corp.",
-            description:
-                "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
-        },
-        {
-            icon: (
-                "/person.jpg"
-            ),
-            name: "William Gibson",
-            supname: "CEO, Traders Corp.",
-            description:
-                "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
-        },
-        {
-            icon: (
-               "/person.jpg"
-            ),
-            name: "William Gibson",
-            supname: "CEO, Traders Corp.",
-            description:
-                "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
-        },
+        // {
+        //     icon: (
+        //         "/person.jpg"
+        //     ),
+        //     name: "William Gibson",
+        //     supname: "CEO, Traders Corp.",
+        //     description:
+        //         "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
+        // },
+        // {
+        //     icon: (
+        //         "/person.jpg"
+        //     ),
+        //     name: "William Gibson",
+        //     supname: "CEO, Traders Corp.",
+        //     description:
+        //         "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
+        // },
+        // {
+        //     icon: (
+        //        "/person.jpg"
+        //     ),
+        //     name: "William Gibson",
+        //     supname: "CEO, Traders Corp.",
+        //     description:
+        //         "Ik heb meer dan 50% bespaard door Adelaar Transport te gebruiken voor mijn bedrijf. Het klantenserviceteam was zeer behulpzaam. Ik zal Adelaar Transport zeker gebruiken voor al mijn toekomstige zendingen. Bedankt! "
+        // },
     ];
 
     return (
@@ -75,7 +75,7 @@ const TestimonialSection = () => {
                     ))}
                 </div>
 
-                <div className="flex justify-center mt-4 space-x-4">
+                {cardData > 1 && (<div className="flex justify-center mt-4 space-x-4">
                     <button
                         onClick={scrollLeft}
                         className="bg-white text-green4 text-xl px-5 py-3 rounded-full shadow-md hover:bg-transparent hover:border-green4 hover:border-2"
@@ -88,7 +88,7 @@ const TestimonialSection = () => {
                     >
                         &gt;
                     </button>
-                </div>
+                </div>)}
             </div>
         </section>
     );

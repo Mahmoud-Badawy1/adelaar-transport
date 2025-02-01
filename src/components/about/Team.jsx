@@ -36,7 +36,7 @@ function Team() {
           selectedCard={selectedCard}
           handleCardClick={handleCardClick}
         />
-        <TeamCard
+        {/* <TeamCard
           id="2"
           selectedCard={selectedCard}
           handleCardClick={handleCardClick}
@@ -50,7 +50,7 @@ function Team() {
           id="4"
           selectedCard={selectedCard}
           handleCardClick={handleCardClick}
-        />
+        /> */}
       </div>
     </section>
   );
