@@ -11,8 +11,8 @@ function CardContact() {
         <div className='text-center pb-5'>
         <div className='font-bold'>
         Stuur ons een e-mail</div>
-        <div className='font-sans text-text1'>sales@adelaartransport.nl</div>
-        <div className='font-sans text-text1'>info@adelaartransport.nl</div>
+        <a href='mailto:sales@adelaartransport.nl' className='font-sans text-text1 block'>sales@adelaartransport.nl</a>
+        <a href='mailto:info@adelaartransport.nl' className='font-sans text-text1 block'>info@adelaartransport.nl</a>
         </div>
     </div>
     <div className='w-64  bg-white rounded border m-5 '>
@@ -22,8 +22,8 @@ function CardContact() {
         </div>
         <div className='text-center gap-2'>
         <div className='font-bold'>Bel ons op elk moment</div>
-        <div className='font-sans text-text1'>+31628964262</div>
-        <div className='font-sans text-text1'>+31630013015</div>
+        <a  href='tel:+31628964262' className='font-sans text-text1 block'>+31628964262</a>
+        <a href='tel:+31630013015' className='font-sans text-text1 block'>+31630013015</a>
         </div>
     </div>
     <div className='w-64  bg-white rounded border m-5'>

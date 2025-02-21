@@ -9,26 +9,11 @@ const ServiceOptions = () => {
     },
     {
       id: 2,
-      title: "Freeze product Shipping",
-      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et"
-    },
-    {
-      id: 3,
-      title: "Hot Shot Trucking",
-      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et"
-    },
-    {
-      id: 4,
       title: "Container Freight",
       description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et"
     },
     {
-      id: 5,
-      title: "Intermodal Shipping",
-      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et"
-    },
-    {
-      id: 6,
+      id: 3,
       title: "Flatbed Shipping",
       description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et"
     }

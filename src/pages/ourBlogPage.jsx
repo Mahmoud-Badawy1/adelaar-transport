@@ -7,7 +7,7 @@ function OurBlogPage() {
   return (
     <>
     <Header />
-    <Intro title={"Team Details"} />
+    <Intro title={"Blog"} />
     <CardPagination />
     <Footer />
     </>
