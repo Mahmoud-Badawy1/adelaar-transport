@@ -1,5 +1,6 @@
 "use client"; 
 import React from 'react';
+import Image from 'next/image';
 
 const Hero = () => {
   const handleNavigation = () => {
@@ -7,9 +8,9 @@ const Hero = () => {
   };
   return (
     <section className="bg-green3 text-white relative h-screen flex items-center w-full">
-      <div className='flex-row flex items-center gap-3 w-full '>
+      <div className='flex-row flex items-center gap-3 justify-around '>
       {/* Left Decorative Element */}
-      <div className=" left-10 mx-auto top-1/2 transform -translate-y-1/2 space-y-4 items-center justify-center sm:flex flex-col hidden">
+      <div className="ml-4 mx-auto top-1/2 transform -translate-y-1/2 space-y-4 items-center justify-center sm:flex flex-col hidden">
         {/* Orange Circle with Dot */}
         <div className="relative w-10 h-10 flex items-center justify-center">
           <div className="absolute w-10 h-10 border-2 border-orange rounded-full"></div>
@@ -47,7 +48,12 @@ const Hero = () => {
   </div>
 </button>
       </div>
+       {/* Right Decorative Element */}
+       <div className=" transform space-y-4 items-center justify-center sm:flex flex-col hidden">
+       <Image className='w-full' src={'/home1-Photoroom.png'} width={700} height={700} />
       </div>
+      </div>
+     
     </section>
   );
 };
