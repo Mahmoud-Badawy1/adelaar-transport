@@ -8,7 +8,7 @@ const Hero = () => {
   };
   return (
     <section className="bg-green3 text-white relative h-screen flex items-center w-full">
-      <div className='flex-row flex items-center gap-3 justify-around '>
+      <div className='flex-col sm:flex-row flex items-center gap-3 justify-around '>
       {/* Left Decorative Element */}
       <div className="ml-4 mx-auto top-1/2 transform -translate-y-1/2 space-y-4 items-center justify-center sm:flex flex-col hidden">
         {/* Orange Circle with Dot */}
@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
 
       {/* Hero Content */}
-      <div className="container  flex flex-col items-start justify-center px-4">
+      <div className="container  flex flex-col items-start justify-center px-4 order-2 sm:order-none">
         <p className="text-gray-300 text-sm uppercase mb-4">
         Adelaar Transport Transportbedrijf NV
         </p>
@@ -49,7 +49,7 @@ const Hero = () => {
 </button>
       </div>
        {/* Right Decorative Element */}
-       <div className=" transform space-y-4 items-center justify-center sm:flex flex-col hidden">
+       <div className=" transform space-y-4 items-center justify-center sm:flex flex-col  order-1 sm:order-0">
        <Image className='w-full' src={'/home1-Photoroom.png'} width={700} height={700} />
       </div>
       </div>
