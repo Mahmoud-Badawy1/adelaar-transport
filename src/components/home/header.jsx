@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className="bg-green3 text-gray-200 flex flex-wrap lg:flex-nowrap w-full items-center">
       {/* Logo Section */}
-        <div className="bg-green3 sm:w-40 sm:h-[125px] w-28 h-24 flex items-center px-4 bg-cover bg-center" style={{backgroundImage: "url('/logo.png')"}}>
+        <div className="bg-green3 sm:ml-9 sm:mt-6 sm:w-40 sm:h-[125px] w-28 h-24 flex items-center px-4 bg-cover bg-center" style={{backgroundImage: "url('/logo.png')"}}>
             {/* <Image 
               src="/logo.png"
               alt="Adelaar Transport Logo"
@@ -54,7 +54,7 @@ const Header = () => {
 
         {/* Top Bar */}
         <div className="bg-green3 py-2 border-b-2 border-line hidden lg:flex justify-between items-center w-full">
-          <div className="container mx-auto flex justify-between items-center px-4 text-sm">
+          <div className="container mx-auto flex justify-center items-center px-4 text-sm">
             <div className="flex space-x-6">
               <div className="flex items-center space-x-2">
                 <svg
@@ -92,7 +92,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="mx-auto flex justify-end items-center px-4 text-sm gap-5">
+          {/* <div className="mx-auto flex justify-end items-center px-4 text-sm gap-5">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
   <path d="M22.675 0h-21.35C.59 0 0 .592 0 1.325v21.351C0 23.407.59 24 1.325 24h11.495v-9.294H9.695v-3.622h3.125V8.413c0-3.1 1.892-4.787 4.655-4.787 1.321 0 2.463.098 2.794.142v3.24h-1.917c-1.504 0-1.795.715-1.795 1.763v2.313h3.59l-.467 3.622h-3.124V24h6.124c.734 0 1.325-.592 1.325-1.325V1.325C24 .592 23.407 0 22.675 0z"/>
 </svg>
@@ -105,13 +105,13 @@ const Header = () => {
   <path fill="#FBBC05" d="M10.4 28.08A11.97 11.97 0 0 1 9.5 24c0-1.42.24-2.79.7-4.08l-6.94-5.38C1.46 17.53 0 20.64 0 24c0 3.36 1.46 6.47 3.76 8.92l6.64-4.84z"/>
   <path fill="#4285F4" d="M24 46.5c5.52 0 10.19-1.82 13.58-4.92l-6.99-5.43c-1.91 1.28-4.38 2.05-6.59 2.05-6.33 0-11.67-3.73-14.26-9.07L3.76 32.92C7.25 40.98 14.94 46.5 24 46.5z"/>
 </svg>
-          </div>
+          </div> */}
         </div>
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex bg-green3 xl:ml-[17%]">
           <div className="container mx-auto flex justify-between items-center px-4">
-            <div className="xl:border-x-2 border-line w-[50%] items-center flex md:m-auto h-full pt-[2%]">
+            <div className="xl:border-r-2 border-line w-[50%] items-center flex md:m-auto h-full pt-[2%]">
               <nav className="space-x-6 m-auto">
                 {navItems.map((item) => (
                   <Link

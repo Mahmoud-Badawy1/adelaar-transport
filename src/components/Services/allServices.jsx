@@ -50,7 +50,7 @@ const ServicesSection = () => {
         </div>
         
         {/* Pagination */}
-        <div className="flex items-center justify-center gap-2">
+        {totalPages > 1 && <div className="flex items-center justify-center gap-2">
           {/* Previous Arrow */}
           {currentPage > 1 && (
             <button
@@ -114,7 +114,7 @@ const ServicesSection = () => {
               </svg>
             </button>
           )}
-        </div>
+        </div>}
       </div>
     </section>
   );

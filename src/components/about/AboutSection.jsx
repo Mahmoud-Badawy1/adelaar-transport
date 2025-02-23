@@ -5,8 +5,8 @@ function AboutSection() {
     <>
       <section className="bg-orange text-white relative flex flex-col md:flex-row justify-center items-center" style={{ height: "auto", minHeight: "300px",paddingBottom:"15rem" }}>
 
-        <div className="flex-1 text-center mt-10 md:mt-20 px-5 md:px-20">
-          <div className="bg-white text-orange w-32 rounded-lg mx-auto md:ml-20 mb-5 text-sm p-1">
+        <div className="flex-1 text-start mt-10 md:mt-20 px-5 md:px-20">
+          <div className="bg-white text-orange w-fit rounded-full mb-5 text-lg p-1 justify-start space-x-2 px-6 py-2 font-semibold">
           OVER Adelaar Transport
           </div>
           <div className="text-2xl md:text-4xl font-semibold">

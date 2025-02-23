@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Image from "next/image";
 function CardPagination() {
   // البيانات الوهمية
-  const data = Array.from({ length: 50 }, (_, index) => ({
+  const data = Array.from({ length: 3 }, (_, index) => ({
     id: index + 1,
     name: `Rayan Williams`,
     supname: `Vervoerder`,
@@ -67,7 +67,7 @@ function CardPagination() {
       </div>
 
       {/* الترقيم */}
-      <ReactPaginate
+      {data.length > 6 && <ReactPaginate
         previousLabel={"Previous"}
         nextLabel={"Next"}
         breakLabel={"..."}
@@ -83,7 +83,7 @@ function CardPagination() {
         nextClassName={"px-3 py-1 border rounded"}
         nextLinkClassName={"text-orange"}
         activeClassName={"bg-orange text-white"}
-      />
+      />}
     </div>
   );
 }

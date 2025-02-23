@@ -76,7 +76,7 @@ const ServiceDetails = () => {
               {/* Background with curve */}
               <div className="absolute inset-0">
                 {/* Gray background */}
-                <div className="absolute inset-0 bg-gray-300"></div>
+                <div className='absolute inset-0 bg-gray-300 bg-cover bg-start' style={{backgroundImage: `url('/contact.jpg')`}}></div>
 
                 {/* Curved overlay */}
                 <Image
